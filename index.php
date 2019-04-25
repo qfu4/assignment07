@@ -7,16 +7,18 @@
 	<link rel="stylesheet" href="css/long-scrolly.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/map.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
 	 <!-- Navigation -->
     <nav class="main-menu">
         <a id="logo" href="index.html">
-        	<h1>Michelin Guides</h1>
+        	<h1>Michelin Guide</h1>
         </a>
         <ul>
-            <li><a href="#first">Introduction</a></li>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
             <li><a href="#third">Assessment Criteria</a></li>
             <li><a href="#forth">Three-Star Restaurants</a></li>
@@ -25,10 +27,14 @@
     </nav>
 
     <!-- Top Section -->
-    <section id="index">
+    <section id="index" class="index">
         <div class="container">
 
-            <img src="images/michelin.jpg" alt="a picture of Michelin Guide">
+            <div class="content">
+              
+                <h1>The Ultimate Guide to Finding The Best Restaurant</h1>
+
+            </div><!-- .content -->
 
        </div><!-- .container -->
     </section>
@@ -205,6 +211,20 @@
          	.end().filter("[href=#"+id+"]").parent().addClass("is-current");
    		}                   
 		});
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll>300) {
+          $(".main-menu").css("background-color" , "white");
+        }
+        else {
+          $(".main-menu").css("background-color" , "transparent");
+        }
+        
+      })
+    });
+
 </script>
 </body>
 </html>
