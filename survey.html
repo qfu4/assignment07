@@ -7,7 +7,9 @@
 <body>
 	<!-- Navigation -->
     <nav class="main-menu">
-        <a id="logo" href="#">Logo</a>
+        <a id="logo" href="index.html">
+        	<h1>Michelin Guides</h1>
+        </a>
         <ul>
             <li><a href="#first">Introduction</a></li>
             <li><a href="#second">History</a></li>
@@ -35,11 +37,25 @@
     			<input type="radio" name="foodie" id="no-foodie" value="No"><label for="no-foodie">No</label>
 
     		<h3>After reviewing our introduction, do you think Michelin restaurant guide is reliable or not?</h3>
-    			<input type="radio" name="reliable" id="reliable" value="Reliable"><label for="yes-foodie">Yes</label>
-    			<input type="radio" name="reliable" id="neutral" value="Neutral"><label for="no-foodie">No</label>
-    			<input type="radio" name="reliable" id="not-reliable" value=""
+    			<input type="radio" name="reliable" id="reliable" value="Reliable"><label for="reliable">Reliable</label>
+    			<input type="radio" name="reliable" id="neutral" value="Neutral"><label for="neutral">Neutral</label>
+    			<input type="radio" name="reliable" id="not-reliable" value="Not Reliable"><label for="not-reliable">Not Reliable</label>
+
+    		<h3>Will you try a Michelin restaurant in the future?</h3>
+    			<input type="radio" name="plan" id="try" value="Yes"><label for="try">Yes</label>
+    			<input type="radio" name="plan" id="unsure" value="Unsure"><label for="unsure">Unsure</label>
+    			<input type="radio" name="plan" id="not-try" value="No"><label for="not-try">No</label>
+
+
+    		<h3>On scale of 0 ~ 5, how helpful do you think our website is?</h3>
+    			<input type="radio" name="score" id="score-0" value="0"><label for="score-0">0</label>
+    			<input type="radio" name="score" id="score-1" value="1"><label for="score-1">1</label>
+    			<input type="radio" name="score" id="score-2" value="2"><label for="score-2">2</label>
+    			<input type="radio" name="score" id="score-3" value="3"><label for="score-3">3</label>
+    			<input type="radio" name="score" id="score-4" value="4"><label for="score-4">4</label>
+    			<input type="radio" name="score" id="score-5" value="5"><label for="score-5">5</label>
     	</fieldset>
-
-
+    	<input type="submit" value="Submit!">
+    </form>
 </body>
 </html>
