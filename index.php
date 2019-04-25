@@ -18,13 +18,22 @@
         <ul>
             <li><a href="#first">Introduction</a></li>
             <li><a href="#second">History</a></li>
-            <li><a href="#third">Assessment Criteria and Core Values</a></li>
-            <li><a href="#forth">Three-Star Michelin Restaurants</a></li>
+            <li><a href="#third">Assessment Criteria</a></li>
+            <li><a href="#forth">Three-Star Restaurants</a></li>
             <li><a href="survey.html">Survey</a><li>
         </ul>
     </nav>
 
     <!-- Top Section -->
+    <section id="index">
+        <div class="container">
+
+            <img src="images/michelin.jpg" alt="a picture of Michelin Guide">
+
+       </div><!-- .container -->
+    </section>
+
+    <!-- first Section -->
     <section id="first">
         <div class="container">
 
@@ -32,7 +41,6 @@
 
             <div class="content">
             	
-            	<img src="images/michelin-guide.jpeg" alt="a picture of Michelin Guide">
                 <p>Michelin Guides are a series of guide books published by the French tyre company Michelin for more than a century. The term normally refers to the annually published Michelin Red Guide, the oldest European hotel and restaurant reference guide, which awards up to three Michelin stars for excellence to a select few establishments.The acquisition or loss of a star can have dramatic effects on the success of a restaurant. Michelin also publishes a series of general guides to cities, regions, and countries, the Green Guides.</p>
 
             </div><!-- .content -->
