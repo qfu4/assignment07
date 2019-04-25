@@ -56,5 +56,4 @@ section {
  /* typical - alter the bg for every other section */
 section:nth-child(odd) {
 	background-color: #F5F1ED; 
-	color: white;
 }

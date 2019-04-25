@@ -34,6 +34,7 @@ p { margin-top: 0; }
 
 .firstContainer {
 	display: inline-flex;
+	background-color: #F5F1ED;
 }
 
 /*	State (for dynamic stuff)
@@ -72,7 +73,10 @@ p { margin-top: 0; }
 	justify-content: left;
 	text-align: left;
 	padding: 30px;
-	height: 280px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
 	color: black;
 	background-color: white;
 	z-index: 1;
@@ -91,7 +95,7 @@ p { margin-top: 0; }
 .firstContainer .content p {
 	font-family: 'Scope One', serif;
 	font-weight: lighter;
-	font-size: 14px;
-	color: grey;
+	font-size: 15px;
+	color: #5a5a5a;
 	word-spacing: 2px;
 }
