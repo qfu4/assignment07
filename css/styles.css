@@ -16,6 +16,7 @@ p { margin-top: 0; }
 	width: 100%;
 	max-width: 960px; 
 	align-self: center;
+	position: relative;
 }
 
 .content {
@@ -39,14 +40,14 @@ p { margin-top: 0; }
 	**************************************** */
 .main-menu .is-current a { 
 	font-weight: bolder;
-	text-decoration: underline;
+	color: #F0574B;
 }
 
 .main-menu h1 {
 	margin: 0px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-weight: bolder;
+	font-weight: bold;
 	word-spacing: 10px;
 	padding-left: 10px;
 	font-size: 35px;
@@ -60,19 +61,37 @@ p { margin-top: 0; }
 }
 
 .firstContainer img {
+	position: relative;
 	width: 60%;
 	height: 60%;
+	right: 50px;
 }
 
 .firstContainer .content{
+	position: relative;
 	justify-content: left;
 	text-align: left;
 	padding: 30px;
+	height: 280px;
 	color: black;
 	background-color: white;
-	position: relative;
-	height: auto;
 	z-index: 1;
 	top: 30px;
 	left: 100px;
+}
+
+.firstContainer .content h1 {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.firstContainer .content p {
+	font-family: 'Scope One', serif;
+	font-weight: lighter;
+	font-size: 14px;
+	color: grey;
+	word-spacing: 2px;
 }
