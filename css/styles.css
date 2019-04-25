@@ -38,6 +38,7 @@ p { margin-top: 0; }
 
 .secondContainer {
 	border: 1px hotpink solid;
+	background-color: grey;
 }
 /*	State (for dynamic stuff)
 	**************************************** */
