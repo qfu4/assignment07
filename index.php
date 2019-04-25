@@ -6,6 +6,7 @@
 	<title>Michelin Guides</title>
 	<link rel="stylesheet" href="css/long-scrolly.css">
 	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/timeline.css">
 	<link rel="stylesheet" href="css/map.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
@@ -57,29 +58,42 @@
 
      <!-- Second Section -->
     <section id="second">
-        <div class="container">
+        <div class="container secondContainer">
 
             <h1>History of Michelin Guides</h1>
 
-            <div class="content">
+            <div class="content timeline">
 
-            	<h2>1889</h2>
-                <p>Brothers Andre and Edouard Michelin founded their eponymous tire company. In order to help motorists develop their trips - thereby boosting car sales and in turn, tire purchases - the Michelin brothers produced a small guide filled with handy information for travellers, especially, a listing of places to eat or take shelter for the night.</p>
+              <ol>
+                <li>
+                  <div>
+                    <time>1889</time>
+                    Brothers Andre and Edouard Michelin founded their eponymous tire company. In order to help motorists develop their trips - thereby boosting car sales and in turn, tire purchases - the Michelin brothers produced a small guide filled with handy information for travellers, especially, a listing of places to eat or take shelter for the night.
+                  </div>
+                </li>
 
-                <h2>1920</h2>
-                <p>A brand new MICHELIN Guide was launched and sold for seven francs based on the principle that “man only truly respects what he pays for.”</p>
+                <li>
+                  <div>
+                    <time>1920 - 1926</time>
+                    A brand new MICHELIN Guide was launched and sold for seven francs based on the principle that “man only truly respects what he pays for.” The guide began to award stars for fine dining establishments, initially marking them only with a single star.
+                  </div>
+                </li>
 
-                <h2>1926</h2>
-                <p>The guide began to award stars for fine dining establishments, initially marking them only with a single star.</p>
+                <li>
+                  <div>
+                    <time>1936</time>
+                    A hierarchy of zero, one, two, and three stars was introduced, and the criteria for the starred rankings were published.
+                  </div>
+                </li>
 
-                <h2>1936</h2>
-                <p>A hierarchy of zero, one, two, and three stars was introduced, and the criteria for the starred rankings were published.
+                <li>
+                  <div>
+                    <time>1940 - Today</time>
+                    The MICHELIN Guides became best-sellers without equals. The remarkable foresight of the founding Michelin brothers has given the company a vocation to make driving, tourism and the search for unforgettable experiences available to all.
+                  </div>
+                </li>
 
-                <h2>The rest of 20th century</h2>
-                <p>The MICHELIN Guides became best-sellers without equals.</p>
-
-                <h2>Today</h2>
-                <p>The remarkable foresight of the founding Michelin brothers has given the company a vocation to make driving, tourism and the search for unforgettable experiences available to all.</p>
+              </ol>
 
             </div><!-- .content -->
 

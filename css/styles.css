@@ -34,9 +34,11 @@ p { margin-top: 0; }
 
 .firstContainer {
 	display: inline-flex;
-	background-color: #F5F1ED;
 }
 
+.secondContainer {
+	border: 1px hotpink solid;
+}
 /*	State (for dynamic stuff)
 	**************************************** */
 .main-menu .is-current a { 
