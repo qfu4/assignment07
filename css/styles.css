@@ -3,6 +3,10 @@
 	**************************************** */
 p { margin-top: 0; }
 
+h1 {
+	font-family: 'Poppins', sans-serif;
+}
+
 /*	Modules (reusable classes)
 	**************************************** */
 .index {
@@ -82,7 +86,7 @@ section:nth-child(3) {
 }
 
 .firstContainer .content h1 {
-	font-family: 'Poppins', sans-serif;
+	
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-top: 20px;
@@ -103,14 +107,13 @@ section:nth-child(4) {
 
 
 .secondContainer h1{
-	font-family: 'Poppins', sans-serif;
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-bottom: 0px;
 }
 
 section:nth-child(5) {
-	background-color: #fdebb8; 
+	background-color: #F5F1ED; 
 }
 
 .thirdContainer .content > * {
@@ -123,4 +126,10 @@ section:nth-child(5) {
 
 .thirdContainer .content h3 {
 	text-align: center;
+}
+
+.thirdContainer h1{
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-bottom: 15px;
 }
