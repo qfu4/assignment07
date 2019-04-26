@@ -54,7 +54,7 @@ body {
 }
 
 .survey {
-	background-image: url("../images/survey.jpg");
+	background-image: url("../images/surveypage.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -293,6 +293,10 @@ section:nth-child(6) {
 	font-size: 24px;
 }
 
+.sixthContainer h2 {
+	letter-spacing: 1px;
+	font-size: 30px;
+}
 
 .index button:hover {
 	background-color: white;

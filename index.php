@@ -196,7 +196,7 @@
             <h2>What do you think? <i class="fa fa-thumbs-up"></i> or <i class="fa fa-thumbs-down"></i></h2>
             
             <div class="content">
-              <p>Take Our Survey About Michelin Guides！<br> Tell us your experience with Michelin Guides and with our website.</p>
+              <p>Take Our Survey About Michelin Guides! <br> Tell us your experience with Michelin Guides and with our website.</p>
               <p></p>
             </div><!-- .content -->
 
