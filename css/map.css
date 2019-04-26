@@ -75,7 +75,6 @@ path {
 }
 
 .icons {
-  position: absolute; 
 }
 
 .fifthContainer button {
@@ -124,12 +123,22 @@ path {
 }
 
 .pin-jp {
+  top: 450px;
+  left: 963px;
+}
 
+.pin-es {
+  left: 565px;
 }
 
 .pin-de {
   top: 398px;
   left: 600px;
+}
+
+.pin-cn {
+  top: 470px;
+  left: 870px;
 }
 
 .map-location:hover .dogras-location-bubble {

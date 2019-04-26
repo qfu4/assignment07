@@ -195,15 +195,25 @@
 
 <div class="map-location pin-jp">
     <div class="dogras-location-bubble">Japan</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('japan')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-es">
     <div class="dogras-location-bubble">Spain</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('spain')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-de">
     <div id = "countryName" class="dogras-location-bubble">Germany</div>
     <div class="icons"><button type="button" onclick="myFunction('germany')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-cn">
+    <div id = "countryName" class="dogras-location-bubble">China</div>
+    <div class="icons"><button type="button" onclick="myFunction('china')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-cn">
+    <div id = "countryName" class="dogras-location-bubble">China</div>
+    <div class="icons"><button type="button" onclick="myFunction('china')"><i class="fa fa-map-marker"></i></button></div>
 </div>
