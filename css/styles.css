@@ -55,7 +55,7 @@ body {
 
 .survey {
 	background-image: url("../images/survey.jpg");
-	background-position: right;
+	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
 }
@@ -249,6 +249,8 @@ section:nth-child(6) {
 
 .fifthContainer h3 {
 	margin-bottom: 10px;
+	color: #5a5a5a;
+	font-size: 18px;
 }
 
 .fifthContainer .list div {
@@ -282,6 +284,13 @@ section:nth-child(6) {
 	margin-bottom: 5px;
 	margin-left: 3px;
 
+}
+
+.fifthContainer .list span {
+	margin-left: 10px;
+	color: black;
+	font-weight: 600;
+	font-size: 24px;
 }
 
 
