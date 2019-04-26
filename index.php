@@ -31,15 +31,15 @@
 
     <!-- Top Section -->
     <section id="index" class="index">
-        <div class="container">
+        <div class="indexContainer">
 
             <div class="content">
               
-                <h1>The Ultimate Guide to Finding The Best Restaurant</h1>
-
-                <button onclick="window.location.href='survey.php'">Take the Survey</button>
+                <h1>The Ultimate Guide for FOODIE </h1>
 
             </div><!-- .content -->
+
+            <button onclick="window.location.href='survey.php'">Take the Survey</button>
 
        </div><!-- .container -->
     </section>
@@ -220,11 +220,13 @@
     </section>
 
     <section id="sixth">
-        <div class="container">
+        <div class="container sixthContainer">
 
             <div class="content">
 
-              <h1>Take The Survey</h1>
+              <a href="survey.php">
+                <h1>Take The Survey</h1>
+              </a>
 
             </div><!-- .content -->
 
@@ -300,6 +302,13 @@
       document.getElementById("china").style.display = "none";
       document.getElementById("italy").style.display = "none";
       document.getElementById("uk").style.display = "none";
+      document.getElementById("switzerland").style.display = "none";
+      document.getElementById("austria").style.display = "none";
+      document.getElementById("denmark").style.display = "none";
+      document.getElementById("norway").style.display = "none";
+      document.getElementById("south-korea").style.display = "none";
+      document.getElementById("sweden").style.display = "none";
+      document.getElementById("netherlands").style.display = "none";
       document.getElementById(elementId).style.display = "block";
     }
 

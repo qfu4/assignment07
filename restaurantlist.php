@@ -3,12 +3,6 @@
                     <li>Restaurant Amador</li>
                 </ul>
                 </div>
-
-                <div id="belgium" class="belgium">
-                <ul>
-                    <li>Hof van Cleve</li>
-                </ul>
-                </div>
                 
                 <div id="china" class="china">
                 <ul>
@@ -35,24 +29,24 @@
 
                 <div id="france" class="france">
                 <ul>
-                    <li>Clos de Sens</li>
                     <li>Maison Lameloise</li>
+                    <li>Clos de Sens</li>
                     <li>L'Auberge de Collonges</li>
+                    <li>Mirazur</li>
                     <li>Le 1947 at Cheval Blanc</li>
+                    <li>Le Louis XV </li>
                     <li>Les Prés d'Eugénie</li>
+                    <li>Arpège</li>
                     <li>L'Auberge du Vieux Puits</li>
+                    <li>Guy Savoy</li>
                     <li>Christophe Bacquié</li>
                     <li>La Bouitte</li>
+                    <li>Alain Ducasse au Plaza Athénée</li>
                     <li>Le Petit Nice</li>
+                    <li>Alléno Paris au Pavillon Ledoyen</li>
                     <li>Flocons de Sel</li>
-                    <li>Mirazur</li>
-                    <li>Le Louis XV </li>
                     <li>Le Bois sans Feuilles</li>
                     <li>L'Ambroisie</li>
-                    <li>Guy Savoy</li>
-                    <li>Arpège</li>
-                    <li>Alain Ducasse au Plaza Athénée</li>
-                    <li>Alléno Paris au Pavillon Ledoyen</li>
                     <li>Epicure</li>
                     <li>Le Cinq</li>
                     <li>Pierre Gagnaire</li>
@@ -60,8 +54,6 @@
                     <li>Régis et Jacques Marcon</li>
                     <li>La Vague d'Or</li>
                     <li>L'Assiette Champenoise</li>
-                    <li>Pic</li>
-                    <li>Georges Blanc</li>
                 </ul>
                 </div>
 
@@ -150,8 +142,8 @@
                 <ul>
                     <li>Lasarte</li>
                     <li>ABaC</li>
-                    <li>Aponiente</li>
                     <li>El Celler de Can Roca</li>
+                    <li>Aponiente</li>
                     <li>Martín Berasategui</li>
                     <li>Azurmendi</li>
                     <li>DiverXO</li>
@@ -171,8 +163,8 @@
                 <div id="switzerland" class="switzerland">
                 <ul>
                     <li>Cheval Blanc</li>
-                    <li>Restaurant de l'Hôtel de Ville</li>
                     <li>Schloss Schauenstein</li>
+                    <li>De l'Hôtel de Ville</li>
                 </ul>
                 </div>
 

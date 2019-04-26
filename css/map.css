@@ -53,10 +53,6 @@ path {
   fill: #ffdbce;
 }
 
-.BE {
-  fill: #dde6ed;
-}
-
 .DK {
   fill: #e0d8e8;
 }
@@ -115,47 +111,77 @@ path {
 }
 
 .pin-usa { 
-  top:450px;
+  top:500px;
   left: 295px;
 }
 
 .pin-fr {
-  top: 415px;
-  left: 580px;
+  top: 465px;
+  left: 575px;
 }
 
 .pin-jp {
-  top: 450px;
+  top: 500px;
   left: 963px;
 }
 
 .pin-es {
+  top: 495px;
   left: 565px;
 }
 
 .pin-de {
-  top: 398px;
-  left: 600px;
+  top: 440px;
+  left: 608px;
 }
 
 .pin-cn {
-  top: 470px;
+  top: 520px;
   left: 870px;
 }
 
 .pin-it {
-  top: 435px;
+  top: 485px;
   left: 615px;
 }
 
 .pin-ge {
-  top: 380px;
+  top: 430px;
   left: 565px;
 }
 
 .pin-nl {
-  top: 395px;
+  top: 440px;
   left: 588px;
+}
+
+.pin-ch {
+  top: 468px;
+  left: 598px;
+}
+
+.pin-at {
+  top: 460px;
+  left: 618px;
+}
+
+.pin-dk {
+  top: 420px;
+  left: 600px;
+}
+
+.pin-no {
+  top: 380px;
+}
+
+.pin-kr {
+  top: 500px;
+  left: 930px;
+}
+
+.pin-se {
+  top: 360px;
+  left: 625px;
 }
 
 .map-location:hover .dogras-location-bubble {

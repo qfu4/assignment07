@@ -13,13 +13,14 @@ body {
 
 /*	Modules (reusable classes)
 	**************************************** */
-.index {
+.index{
 	background-image: url("../images/michelin.jpg");
 	height: 100%; 
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+
 .container {
 	margin: 0 auto;
 	width: 100%;
@@ -32,6 +33,13 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.indexContainer {
+	margin: 0 auto;
+	width: 100%;
+	align-self: center;
+	position: relative;
 }
 
 .firstContainer {
@@ -66,6 +74,30 @@ body {
 	margin-top: 23px;
 	font-size: 16px;
 	text-align: center;
+}
+
+.index h1 {
+	font-weight: bolder;
+	font-size: 38px;
+}
+
+.index button {
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	border-radius: 40px;
+	background-color: #F0574B;
+	color: white;
+	border: 3px #F0574B solid;
+	outline: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	top: 230px;
 }
 
 section:nth-child(3) {
@@ -181,28 +213,6 @@ section:nth-child(6) {
 	margin-bottom: 20px;
 }
 
-.fifthContainer .list div {
-	display: none;
-}
-
-.fifthContainer .list {
-	text-align: left;
-	width: 350px;
-}
-
-.fifthContainer .list ul {
-	padding: 0px;
-	margin: 0px;
-	margin-left: 5px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.fifthContainer .list li {
-	list-style: none;
-	font-size: 14px;
-}
-
 .inner-container{
   display: inline-flex;
 }
@@ -215,4 +225,54 @@ section:nth-child(6) {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.fifthContainer h1 {
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.fifthContainer h2 {
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 10px;
+}
+
+.fifthContainer .list div {
+	display: none;
+}
+
+.fifthContainer .list {
+	text-align: left;
+	width: 350px;
+}
+
+.fifthContainer .list ul {
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.fifthContainer .list li {
+	list-style: none;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 30px;
+	color: white;
+	background-color: #F0574B;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+
+}
+
+.index button:hover {
+	background-color: white;
+	color: #F0574B;
 }
