@@ -6,11 +6,7 @@
 
             <div class="content">
               
-<<<<<<< HEAD
-                <h2>The Ultimate Guide for FOODIE </h2>
-=======
-                <h1>The Ultimate Guide for <span>FOODIE</span> </h1>
->>>>>>> 879d5f8203410945d988c5d314924ecd55a601f5
+                <h2>The Ultimate Guide for <span>FOODIE</span></h2>
 
             </div><!-- .content -->
 
