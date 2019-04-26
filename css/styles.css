@@ -298,6 +298,23 @@ section:nth-child(6) {
 	font-size: 30px;
 }
 
+.sixthContainer p {
+	color: #5a5a5a;
+}
+
+.sixthContainer button {
+	border-radius: 40px;
+	background-color: #F0574B;
+	outline: none;
+	font-size: 24px;
+	font-weight: 500;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
 .index button:hover {
 	background-color: white;
 	color: #F0574B;
