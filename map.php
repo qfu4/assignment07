@@ -195,65 +195,65 @@
 
 <div class="map-location pin-jp">
     <div class="dogras-location-bubble">Japan</div>
-    <div class="icons"><button type="button" value="Japan" onclick="myFunction('japan'); myFunction1('japan');"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="japan1" type="button" value="Japan" onclick="myFunction('japan'); myFunction1('japan1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-es">
     <div class="dogras-location-bubble">Spain</div>
-    <div class="icons"><button type="button" value="Spain" onclick="myFunction('spain'); myFunction1('spain');"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="spain1" type="button" value="Spain" onclick="myFunction('spain'); myFunction1('spain1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-de">
     <div class="dogras-location-bubble">Germany</div>
-    <div class="icons"><button type="button" value="Germany" onclick="myFunction('germany'); myFunction1('germany');"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="germany1" type="button" value="Germany" onclick="myFunction('germany'); myFunction1('germany1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-cn">
     <div class="dogras-location-bubble">China</div>
-    <div class="icons"><button type="button" onclick="myFunction('china')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="china1" type="button" value="China" onclick="myFunction('china');myFunction1('china1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-it">
     <div class="dogras-location-bubble">Italy</div>
-    <div class="icons"><button type="button" onclick="myFunction('italy')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="italy1" type="button" value="Italy" onclick="myFunction('italy'); myFunction1('italy1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-ge">
     <div class="dogras-location-bubble">United Kingdom</div>
-    <div class="icons"><button type="button" onclick="myFunction('uk')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="uk1" type="button" value="United Kingdom" onclick="myFunction('uk');myFunction1('uk1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-nl">
     <div class="dogras-location-bubble">Netherlands</div>
-    <div class="icons"><button type="button" onclick="myFunction('netherlands')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="netherlands1" type="button" value="Netherlands" onclick="myFunction('netherlands');myFunction1('netherlands1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-ch">
     <div class="dogras-location-bubble">Switzerland</div>
-    <div class="icons"><button type="button" onclick="myFunction('switzerland')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="switzerland1" type="button" value="Switzerland" onclick="myFunction('switzerland');myFunction1('switzerland1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-at">
     <div class="dogras-location-bubble">Austria</div>
-    <div class="icons"><button type="button" onclick="myFunction('austria')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="austria1" type="button" value="Austria" onclick="myFunction('austria');myFunction1('austria1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-dk">
     <div class="dogras-location-bubble">Denmark</div>
-    <div class="icons"><button type="button" onclick="myFunction('denmark')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="denmark1" type="button" value="Denmark" onclick="myFunction('denmark'); myFunction1('denmark1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-no">
     <div class="dogras-location-bubble">Norway</div>
-    <div class="icons"><button type="button" onclick="myFunction('norway')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="norway1" type="button" value="Norway" onclick="myFunction('norway'); myFunction1('norway1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-kr">
     <div class="dogras-location-bubble">South Korea</div>
-    <div class="icons"><button type="button" onclick="myFunction('south-korea')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="south-korea1" type="button" value="South Korea" onclick="myFunction('south-korea');myFunction1('south-korea1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-se">
     <div class="dogras-location-bubble">Sweden</div>
-    <div class="icons"><button type="button" onclick="myFunction('sweden')"><i class="fa fa-map-marker"></i></button></div>
+    <div class="icons"><button id="sweden1" type="button" value="Sweden" onclick="myFunction('sweden'); myFunction1('sweden1')"><i class="fa fa-map-marker"></i></button></div>
 </div>

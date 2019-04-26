@@ -179,7 +179,7 @@
 
             <div class="list">
 
-              <h3>Country</h3> <p id="countryName"></p>
+              <h3>Country <span id="countryName"></span></h3> 
 
             	<?php include "restaurantlist.php";?>
 
