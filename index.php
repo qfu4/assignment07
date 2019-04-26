@@ -300,6 +300,13 @@
       document.getElementById("china").style.display = "none";
       document.getElementById("italy").style.display = "none";
       document.getElementById("uk").style.display = "none";
+      document.getElementById("switzerland").style.display = "none";
+      document.getElementById("austria").style.display = "none";
+      document.getElementById("denmark").style.display = "none";
+      document.getElementById("norway").style.display = "none";
+      document.getElementById("south-korea").style.display = "none";
+      document.getElementById("sweden").style.display = "none";
+      document.getElementById("netherlands").style.display = "none";
       document.getElementById(elementId).style.display = "block";
     }
 

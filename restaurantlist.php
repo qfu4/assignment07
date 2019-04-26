@@ -3,12 +3,6 @@
                     <li>Restaurant Amador</li>
                 </ul>
                 </div>
-
-                <div id="belgium" class="belgium">
-                <ul>
-                    <li>Hof van Cleve</li>
-                </ul>
-                </div>
                 
                 <div id="china" class="china">
                 <ul>
@@ -171,8 +165,8 @@
                 <div id="switzerland" class="switzerland">
                 <ul>
                     <li>Cheval Blanc</li>
-                    <li>Restaurant de l'Hôtel de Ville</li>
                     <li>Schloss Schauenstein</li>
+                    <li>De l'Hôtel de Ville</li>
                 </ul>
                 </div>
 
