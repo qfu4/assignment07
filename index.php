@@ -297,6 +297,9 @@
       document.getElementById("france").style.display = "none";
       document.getElementById("japan").style.display = "none";
       document.getElementById("spain").style.display = "none";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("italy").style.display = "none";
+      document.getElementById("uk").style.display = "none";
       document.getElementById(elementId).style.display = "block";
     }
 

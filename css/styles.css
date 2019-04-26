@@ -190,8 +190,17 @@ section:nth-child(6) {
 	width: 350px;
 }
 
+.fifthContainer .list ul {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .fifthContainer .list li {
 	list-style: none;
+	font-size: 14px;
 }
 
 .inner-container{

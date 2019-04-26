@@ -6,7 +6,6 @@ svg {
 
 path {
   fill: #efefef;
-  cursor: pointer;
   position: relative;
 }
 
@@ -74,7 +73,9 @@ path {
   fill: #f3e0d7;
 }
 
-.icons {
+.icons i {
+  margin: 0px;
+  padding: 0px;
 }
 
 .fifthContainer button {
@@ -86,6 +87,7 @@ path {
   font-size: 36px; 
   color: #e9433a ;
   z-index: 100;
+  outline: none;
 }
 
 .map-location { 
@@ -96,7 +98,7 @@ path {
   position: absolute; 
   top: -20px; 
   left: 23px; 
-  width: 100px;
+  width: 110px;
   margin-left: -58px; 
   padding: 5px; 
   border-radius: 4px; 
@@ -141,6 +143,21 @@ path {
   left: 870px;
 }
 
+.pin-it {
+  top: 435px;
+  left: 615px;
+}
+
+.pin-ge {
+  top: 380px;
+  left: 565px;
+}
+
+.pin-nl {
+  top: 395px;
+  left: 588px;
+}
+
 .map-location:hover .dogras-location-bubble {
   display: block;
 }
@@ -148,7 +165,6 @@ path {
 .fifthContainer button:hover{
   font-size: 42px;
 }
-
 
 
 

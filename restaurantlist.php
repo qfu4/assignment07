@@ -37,17 +37,17 @@
                 <ul>
                     <li>Clos de Sens</li>
                     <li>Maison Lameloise</li>
-                    <li>L'Auberge du Pont de Collonges - Paul Bocuse</li>
+                    <li>L'Auberge de Collonges</li>
                     <li>Le 1947 at Cheval Blanc</li>
-                    <li>Les Prés d'Eugénie - Michel Guérard</li>
+                    <li>Les Prés d'Eugénie</li>
                     <li>L'Auberge du Vieux Puits</li>
                     <li>Christophe Bacquié</li>
                     <li>La Bouitte</li>
                     <li>Le Petit Nice</li>
                     <li>Flocons de Sel</li>
                     <li>Mirazur</li>
-                    <li>Le Louis XV - Alain Ducasse à l'Hôtel de Paris</li>
-                    <li>Le Bois sans Feuilles - Troisgros</li>
+                    <li>Le Louis XV </li>
+                    <li>Le Bois sans Feuilles</li>
                     <li>L'Ambroisie</li>
                     <li>Guy Savoy</li>
                     <li>Arpège</li>
@@ -73,7 +73,7 @@
                     <li>Waldhotel Sonnora</li>
                     <li>The Table</li>
                     <li>Atelier</li>
-                    <li>Victor's Fine Dining by Christian Bau</li>
+                    <li>Victor's Fine Dining</li>
                     <li>Restaurant Überfahrt</li>
                     <li>GästeHaus Klaus Erfort</li>
                     <li>Aqua</li>
@@ -152,7 +152,7 @@
                     <li>ABaC</li>
                     <li>Aponiente</li>
                     <li>El Celler de Can Roca</li>
-                    <li>Restaurante Martín Berasategui</li>
+                    <li>Martín Berasategui</li>
                     <li>Azurmendi</li>
                     <li>DiverXO</li>
                     <li>Dani García</li>
@@ -180,8 +180,8 @@
                 <ul>
                     <li>The Waterside Inn</li>
                     <li>The Fat Duck</li>
-                    <li>Restaurant Gordon Ramsay</li>
-                    <li>Alain Ducasse at the Dorchester</li>
+                    <li>Gordon Ramsay</li>
+                    <li>Alain Ducasse</li>
                     <li>The Araki</li>
                 </ul>
                 </div>
@@ -195,13 +195,13 @@
                     <li>Per Se</li>
                     <li>Masa</li>
                     <li>Eleven Madison Park</li>
-                    <li>Chef's Table at Brooklyn Fare</li>
+                    <li>Brooklyn Fare</li>
                     <li>Atelier Crenn</li>
                     <li>Benu</li>
                     <li>Quince</li>
                     <li>Saison</li>
-                    <li>The Restaurant at Meadowood</li>
-                    <li>The Inn at Little Washington</li>
+                    <li>Meadowood</li>
+                    <li>Little Washington</li>
                     <li>The French Laundry</li>
                 </ul>
                 </div>
