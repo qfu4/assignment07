@@ -190,14 +190,17 @@
        </div><!-- .container -->
     </section>
 
-    <section id="sixth">
+    <section id="sixth" class="survey">
         <div class="container sixthContainer">
 
+            <h2>What do you think? <i class="fa fa-thumbs-up"></i> or <i class="fa fa-thumbs-down"></i></h2>
+            
             <div class="content">
-              <h2>Take Our Survey About Michelin Guides</h2>
-              <p>Tell us your experience with Michelin Guides and with our website.</p>
-              <button onclick="window.location.href='survey.php'">Take the Survey</button>
+              <p>Take Our Survey About Michelin Guides！<br> Tell us your experience with Michelin Guides and with our website.</p>
+              <p></p>
             </div><!-- .content -->
+
+            <button onclick="window.location.href='survey.php'">Let's share</button>
 
        </div><!-- .container -->
     </section>
