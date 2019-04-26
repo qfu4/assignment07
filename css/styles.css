@@ -7,6 +7,10 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 }
 
+body {
+	font-family: 'Scope One', serif;
+}
+
 /*	Modules (reusable classes)
 	**************************************** */
 .index {
@@ -94,7 +98,6 @@ section:nth-child(3) {
 }
 
 .firstContainer .content p {
-	font-family: 'Scope One', serif;
 	font-weight: lighter;
 	font-size: 15px;
 	color: #5a5a5a;
@@ -118,23 +121,57 @@ section:nth-child(5) {
 
 .thirdContainer .content > * {
 	margin: 10px;
-	border: 1px solid #999999;
 	padding: 10px;
 	flex-basis: 250px;
 	text-align: left;
+	background-color: white;
+	border-radius: 30px;
 }
 
 .thirdContainer .content h3 {
-	text-align: center;
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	border-bottom: double 5px #F0574B;
+	width: 30%;
 }
 
 .thirdContainer h1{
 	letter-spacing: 1px;
 	font-size: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 60px;
 }
 
-.thirdContainer li {
+.thirdContainer .content p {
+	font-weight: lighter;
+	font-size: 15px;
+	color: #5a5a5a;
+}
+
+section:nth-child(6) {
+	background-color: #EBEBEB; 
+}
+
+.forthContainer li {
 	list-style: none;
 	display: inline-flex;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 50px;
+	background-color: #F0574B;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
+
+.forthContainer p {
+	margin-bottom: 20px;
+	color: #5a5a5a;
+}
+
+.forthContainer h1 {
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+

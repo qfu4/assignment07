@@ -82,13 +82,12 @@ path {
   fill: #f3e0d7;
 }
 
-/*
-
 .icons {
   position: absolute; 
   font-size:36px; 
   color:#e9433a ; 
   top: -21px;  
+  z-index: 100;
 }
 
 .map-location { 
@@ -139,7 +138,6 @@ path {
   font-size: 42px;
 }
 
-*/
 
 
 
