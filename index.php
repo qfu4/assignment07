@@ -19,6 +19,7 @@
         	<h1>Michelin Guide</h1>
         </a>
         <ul>
+            <li><a href="#index">Home</a></li>
             <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
             <li><a href="#third">Assessment Criteria</a></li>
