@@ -41,9 +41,12 @@
     	</fieldset>
         
     	<input name="send" type="submit" value="Submit!">
-        <a href="login.php">Login as an administrative</a>
-    </a>
+       
 
     </form>
+
+    <footer> 
+        <a class="login" href="login.php">Login as an administrative</a>
+    </footer>
 </body>
 </html>
