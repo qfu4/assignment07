@@ -179,7 +179,7 @@
 
             <div class="list">
 
-              <h3>Country</h3> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
+              <h3>Country</h3> <p id="countryName"></p>
 
             	<?php include "restaurantlist.php";?>
 
@@ -283,6 +283,11 @@
       document.getElementById("sweden").style.display = "none";
       document.getElementById("netherlands").style.display = "none";
       document.getElementById(elementId).style.display = "block";
+    }
+
+    function myFunction1(elementId1) {
+      var x = document.getElementById(elementId1).value;
+      document.getElementById("countryName").innerHTML = x;
     }
 
 </script>
