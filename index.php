@@ -35,7 +35,7 @@
 
             <div class="content">
               
-                <h1>The Ultimate Guide for FOODIE </h1>
+                <h1>The Ultimate Guide for <span>FOODIE</span> </h1>
 
             </div><!-- .content -->
 

@@ -100,6 +100,12 @@ body {
 	top: 230px;
 }
 
+.index span {
+	font-size: 42px;
+	border-bottom: 5px #F0574B solid;
+	color: white;
+}
+
 section:nth-child(3) {
 	background-color: #F5F1ED; 
 }
