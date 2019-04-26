@@ -190,7 +190,7 @@
        </div><!-- .container -->
     </section>
 
-    <section id="sixth">
+    <section id="sixth" class="survey">
         <div class="container sixthContainer">
 
             <div class="content">
