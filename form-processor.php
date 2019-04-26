@@ -14,6 +14,8 @@
 $emailFrom = "kfang2@u.rochester.edu"; // use YOUR email for both lines 12 and 13
 $emailTo = $_POST['email'];
 $subject = "Queens-Foodie";
+// $txt = "Dear,";
+
 
 // for the following lines of code, grab the data being passed 
 //   from the method="post" in the HTML form and hold it in a variable
@@ -50,17 +52,16 @@ $favorite = $_POST['favorite'];
 // $body = "Information"; // initialize the variable, then start concatenating
 //             // backslash-n means new-line in emails
 
-$body .= "Name:\n"; //...a label
+$body .= "Dear "; //...a label
 $body .= $name;      //...a variable
-$body .= "\n\n";              //...a new line
-
-$body .= "Email: \n"; //...a label
-$body .= $email;      //...a variable
-$body .= "\n\n";              //...a new line
-
-$body .= "Address: \n"; //...a label
-$body .= $address;      //...a variable
-$body .= "\n\n";              //...a new line
+$body .= ",\n\n";              //...a new line
+$body .= "Thank you for filling up this survey!\n";
+$body .= "This is a confirmation email from "; //...a label
+$body .= $subject;      //...a variable
+$body .= ".\n\n";              //...a new line
+$body .= "Bon appétit!\n\n";  
+ //...a label
+// $body .= $address;      //...a variable             //...a new line
 // ...used more input fields? Then copy these lines (above)
 //   and make more
 
@@ -84,25 +85,25 @@ $body .= "\n\n";              //...a new line
 //   and make more
 
 // This is for your radio buttons (always just one answer)...
-$body .= "Have you ever heard of Michelin restaurant guides before?: \n";       // a heading for your radio button section
-$body .= $favorite1;            // the (one) radio button variable
-$body .= "\n\n";
+// $body .= "Have you ever heard of Michelin restaurant guides before?: \n";       // a heading for your radio button section
+// $body .= $favorite1;            // the (one) radio button variable
+// $body .= "\n\n";
 
-$body .= "Do you consider yourself as a foodie?: \n";       // a heading for your radio button section
-$body .= $favorite2;            // the (one) radio button variable
-$body .= "\n\n";
+// $body .= "Do you consider yourself as a foodie?: \n";       // a heading for your radio button section
+// $body .= $favorite2;            // the (one) radio button variable
+// $body .= "\n\n";
 
-$body .= "After reviewing our introduction, do you think Michelin restaurant guide is reliable or not?: \n";       // a heading for your radio button section
-$body .= $favorite3;            // the (one) radio button variable
-$body .= "\n\n";
+// $body .= "After reviewing our introduction, do you think Michelin restaurant guide is reliable or not?: \n";       // a heading for your radio button section
+// $body .= $favorite3;            // the (one) radio button variable
+// $body .= "\n\n";
 
-$body .= "Will you try a Michelin restaurant in the future?: \n";       // a heading for your radio button section
-$body .= $favorite4;            // the (one) radio button variable
-$body .= "\n\n";
+// $body .= "Will you try a Michelin restaurant in the future?: \n";       // a heading for your radio button section
+// $body .= $favorite4;            // the (one) radio button variable
+// $body .= "\n\n";
 
-$body .= "On scale of 0 ~ 5, how helpful do you think our website is?: \n";       // a heading for your radio button section
-$body .= $score5;            // the (one) radio button variable
-$body .= "\n\n";
+// $body .= "On scale of 0 ~ 5, how helpful do you think our website is?: \n";       // a heading for your radio button section
+// $body .= $score5;            // the (one) radio button variable
+// $body .= "\n\n";
 
 
 // This is for your TEXTAREA
