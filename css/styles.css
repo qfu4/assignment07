@@ -133,3 +133,8 @@ section:nth-child(5) {
 	font-size: 30px;
 	margin-bottom: 15px;
 }
+
+.thirdContainer li {
+	list-style: none;
+	display: inline-flex;
+}
