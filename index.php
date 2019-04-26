@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Michelin Guides</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/long-scrolly.css">
 	<link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/timeline.css">
@@ -30,15 +31,15 @@
 
     <!-- Top Section -->
     <section id="index" class="index">
-        <div class="container">
+        <div class="indexContainer">
 
             <div class="content">
               
-                <h1>The Ultimate Guide to Finding The Best Restaurant</h1>
-
-                <button onclick="window.location.href='survey.php'">Take the Survey</button>
+                <h1>The Ultimate Guide for FOODIE </h1>
 
             </div><!-- .content -->
+
+            <button onclick="window.location.href='survey.php'">Take the Survey</button>
 
        </div><!-- .container -->
     </section>
@@ -193,7 +194,7 @@
 
     <!-- Forth Section -->
     <section id="fifth">
-        <div class="container">
+        <div class="fifthContainer">
 
             <h1>Three-Star Michelin Restaurants</h1>
 
@@ -205,7 +206,9 @@
 
             </div>
 
-            <div class="content">
+            <div class="list">
+
+              <h2>Country </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
 
             	<?php include "restaurantlist.php";?>
 
@@ -217,13 +220,13 @@
     </section>
 
     <section id="sixth">
-        <div class="container">
-
-
+        <div class="container sixthContainer">
 
             <div class="content">
 
-              <h1>Take The Survey</h1>
+              <a href="survey.php">
+                <h1>Take The Survey</h1>
+              </a>
 
             </div><!-- .content -->
 
@@ -289,6 +292,25 @@
         
       })
     });
+
+    function myFunction(elementId) {
+      document.getElementById("germany").style.display = "none";
+      document.getElementById("us").style.display = "none";
+      document.getElementById("france").style.display = "none";
+      document.getElementById("japan").style.display = "none";
+      document.getElementById("spain").style.display = "none";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("italy").style.display = "none";
+      document.getElementById("uk").style.display = "none";
+      document.getElementById("switzerland").style.display = "none";
+      document.getElementById("austria").style.display = "none";
+      document.getElementById("denmark").style.display = "none";
+      document.getElementById("norway").style.display = "none";
+      document.getElementById("south-korea").style.display = "none";
+      document.getElementById("sweden").style.display = "none";
+      document.getElementById("netherlands").style.display = "none";
+      document.getElementById(elementId).style.display = "block";
+    }
 
 </script>
 </body>
