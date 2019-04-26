@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Michelin Guides</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/long-scrolly.css">
 	<link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/timeline.css">
@@ -19,12 +20,12 @@
         	<h1>Michelin Guide</h1>
         </a>
         <ul>
-            <li><a href="#index">Home</a></li>
             <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
-            <li><a href="#third">Assessment Criteria</a></li>
-            <li><a href="#forth">Three-Star Restaurants</a></li>
-            <li><a href="#fifth">Survey</a><li>
+            <li><a href="#third">Values</a></li>
+            <li><a href="#forth">Criteria</a></li>
+            <li><a href="#fifth">Restaurants</a></li>
+            <li><a href="#sixth">Survey</a><li>
         </ul>
     </nav>
 
@@ -129,16 +130,7 @@
     <section id="third">
         <div class="container thirdContainer">
 
-            <h1>Assessment Criteria and Core Values</h1>
-              	
-            	<p>To maintain the independence of their opinion, the inspectors always dine out anonymously, pay for their meals, and subsequently rate their experience according to five publicly acknowledged assessment criteria:</p>
-           		<ul>
-            		<li>Quality of the products</li>
-					      <li>Mastery of flavour and cooking techniques</li>
-					      <li>The personality of the chef in his cuisine</li>
-					      <li>Value for money</li>
-					      <li>Consistency between visits</li>
-            	</ul>
+            <h1>Core Values</h1>
 
             <div class="content">
 
@@ -179,7 +171,30 @@
 
     <!-- Forth Section -->
     <section id="forth">
-        <div class="container">
+        <div class="container forthContainer">
+
+            <h1>Assessment Criteria</h1>
+
+            <div class="content">
+
+              <p>To maintain the independence of their opinion, the inspectors always dine out anonymously, pay for their meals, and subsequently rate their experience according to five publicly acknowledged assessment criteria:</p>
+              <ul>
+                <li>Quality of the products</li>
+                <li>Mastery of flavour and cooking techniques</li>
+                <li>The personality of the chef in his cuisine</li>
+                <li>Value for money</li>
+                <li>Consistency between visits</li>
+              </ul>
+
+            </div><!-- .content -->
+
+
+       </div><!-- .container -->
+    </section>
+
+    <!-- Forth Section -->
+    <section id="fifth">
+        <div class="fifthContainer">
 
             <h1>Three-Star Michelin Restaurants</h1>
 
@@ -191,7 +206,9 @@
 
             </div>
 
-            <div class="content">
+            <div class="list">
+
+              <h2>Country </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
 
             	<?php include "restaurantlist.php";?>
 
@@ -202,10 +219,8 @@
        </div><!-- .container -->
     </section>
 
-    <section id="fifth">
+    <section id="sixth">
         <div class="container">
-
-
 
             <div class="content">
 
@@ -275,6 +290,18 @@
         
       })
     });
+
+    function myFunction(elementId) {
+      document.getElementById("germany").style.display = "none";
+      document.getElementById("us").style.display = "none";
+      document.getElementById("france").style.display = "none";
+      document.getElementById("japan").style.display = "none";
+      document.getElementById("spain").style.display = "none";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("italy").style.display = "none";
+      document.getElementById("uk").style.display = "none";
+      document.getElementById(elementId).style.display = "block";
+    }
 
 </script>
 </body>

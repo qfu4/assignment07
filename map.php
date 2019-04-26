@@ -184,26 +184,46 @@
 </svg>
 
 <div class="map-location pin-usa">
-    <div class="dogras-location-bubble">United States</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div id = "countryName" class="dogras-location-bubble">United States</div>
+    <div class="icons"><button type="button" onclick="myFunction('us')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-fr">
     <div class="dogras-location-bubble">France</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('france')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-jp">
     <div class="dogras-location-bubble">Japan</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('japan')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-es">
     <div class="dogras-location-bubble">Spain</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('spain')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-de">
-    <div class="dogras-location-bubble">Germany</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div id = "countryName" class="dogras-location-bubble">Germany</div>
+    <div class="icons"><button type="button" onclick="myFunction('germany')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-cn">
+    <div id = "countryName" class="dogras-location-bubble">China</div>
+    <div class="icons"><button type="button" onclick="myFunction('china')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-it">
+    <div id = "countryName" class="dogras-location-bubble">Italy</div>
+    <div class="icons"><button type="button" onclick="myFunction('italy')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-ge">
+    <div id = "countryName" class="dogras-location-bubble">United Kingdom</div>
+    <div class="icons"><button type="button" onclick="myFunction('uk')"><i class="fa fa-map-marker"></i></button></div>
+</div>
+
+<div class="map-location pin-nl">
+    <div id = "countryName" class="dogras-location-bubble">Netherlands</div>
+    <div class="icons"><button type="button" onclick="myFunction('netherlands')"><i class="fa fa-map-marker"></i></button></div>
 </div>
