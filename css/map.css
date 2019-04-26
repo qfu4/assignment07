@@ -12,6 +12,12 @@ path {
 
 .map {
   zoom: 55%;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .inner-container{
@@ -87,11 +93,11 @@ path {
   font-size:36px; 
   color:#e9433a ; 
   top: -21px;  
-  z-index: 100;
 }
 
 .map-location { 
   position: absolute; 
+  z-index: 100;
 }
 
 .dogras-location-bubble { 
@@ -108,17 +114,14 @@ path {
   font-weight: 600;
   text-align: center;
   overflow: hidden;
-}
-
-.dogras-location-bubble {
   display: none;
   position: absolute;
   z-index: 1;
 }
 
 .pin-usa { 
-  top: 370px; 
-  left: 320px;
+  top: 510px; 
+  left: 230px;
 }
 
 .pin-fr {
