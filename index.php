@@ -21,9 +21,10 @@
         <ul>
             <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
-            <li><a href="#third">Assessment Criteria</a></li>
-            <li><a href="#forth">Three-Star Restaurants</a></li>
-            <li><a href="#fifth">Survey</a><li>
+            <li><a href="#third">Values</a></li>
+            <li><a href="#forth">Criteria</a></li>
+            <li><a href="#fifth">Restaurants</a></li>
+            <li><a href="#sixth">Survey</a><li>
         </ul>
     </nav>
 
@@ -128,16 +129,7 @@
     <section id="third">
         <div class="container thirdContainer">
 
-            <h1>Assessment Criteria and Core Values</h1>
-              	
-            	<p>To maintain the independence of their opinion, the inspectors always dine out anonymously, pay for their meals, and subsequently rate their experience according to five publicly acknowledged assessment criteria:</p>
-           		<ul>
-            		<li>Quality of the products</li>
-					      <li>Mastery of flavour and cooking techniques</li>
-					      <li>The personality of the chef in his cuisine</li>
-					      <li>Value for money</li>
-					      <li>Consistency between visits</li>
-            	</ul>
+            <h1>Core Values</h1>
 
             <div class="content">
 
@@ -180,6 +172,29 @@
     <section id="forth">
         <div class="container">
 
+            <h1>Assessment Criteria</h1>
+
+            <div class="content">
+
+              <p>To maintain the independence of their opinion, the inspectors always dine out anonymously, pay for their meals, and subsequently rate their experience according to five publicly acknowledged assessment criteria:</p>
+              <ul>
+                <li>Quality of the products</li>
+                <li>Mastery of flavour and cooking techniques</li>
+                <li>The personality of the chef in his cuisine</li>
+                <li>Value for money</li>
+                <li>Consistency between visits</li>
+              </ul>
+
+            </div><!-- .content -->
+
+
+       </div><!-- .container -->
+    </section>
+
+    <!-- Forth Section -->
+    <section id="fifth">
+        <div class="container">
+
             <h1>Three-Star Michelin Restaurants</h1>
 
             <div class="inner-container">
@@ -201,7 +216,7 @@
        </div><!-- .container -->
     </section>
 
-    <section id="fifth">
+    <section id="sixth">
         <div class="container">
 
 
