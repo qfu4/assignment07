@@ -313,9 +313,19 @@ section:nth-child(6) {
 	padding-bottom: 10px;
 	padding-right: 30px;
 	padding-left: 30px;
+	border: 3px #F0574B solid;
+}
+
+.sixthContainer .fa-thumbs-up {
+	color: #F0574B;
 }
 
 .index button:hover {
+	background-color: white;
+	color: #F0574B;
+}
+
+.sixthContainer button:hover {
 	background-color: white;
 	color: #F0574B;
 }
