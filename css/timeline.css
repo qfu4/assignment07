@@ -18,6 +18,8 @@
   background: #fff;
   zoom: 65%;
   right: 10px;
+  vertical-align: middle;
+  text-align: left;
 }
 
 .timeline ol li:last-child {
