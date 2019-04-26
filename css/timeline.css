@@ -1,8 +1,6 @@
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
-  position: relative;
-  right: 200px;
 }
 
 .timeline ol {
@@ -19,11 +17,6 @@
   height: 3px;
   background: #fff;
 }
-
-.timeline ol li:last-child {
-  width: 280px;
-}
-
 
 .timeline ol li:not(:first-child) {
   margin-left: 14px;
