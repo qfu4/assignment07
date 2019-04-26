@@ -40,7 +40,8 @@
   left: calc(100% + 7px);
   width: 280px;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 15px;
+  font-family: 'Scope One', serif;
   white-space: normal;
   color: black;
   background: white;
@@ -82,6 +83,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 
 
