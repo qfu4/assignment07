@@ -36,6 +36,8 @@
               
                 <h1>The Ultimate Guide to Finding The Best Restaurant</h1>
 
+                <button onclick="window.location.href='survey.php'">Take the Survey</button>
+
             </div><!-- .content -->
 
        </div><!-- .container -->
