@@ -16,6 +16,12 @@
   width: 160px;
   height: 3px;
   background: #fff;
+  zoom: 65%;
+  right: 10px;
+}
+
+.timeline ol li:last-child {
+  width: 350px;
 }
 
 .timeline ol li:not(:first-child) {
@@ -40,7 +46,7 @@
   left: calc(100% + 7px);
   width: 280px;
   padding: 15px;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Scope One', serif;
   white-space: normal;
   color: black;
@@ -80,7 +86,7 @@
 
 .timeline time {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 8px;
   font-family: 'Poppins', sans-serif;

@@ -68,14 +68,27 @@
                 <li>
                   <div>
                     <time>1889</time>
-                    Brothers Andre and Edouard Michelin founded their eponymous tire company. In order to help motorists develop their trips - thereby boosting car sales and in turn, tire purchases - the Michelin brothers produced a small guide filled with handy information for travellers, especially, a listing of places to eat or take shelter for the night.
+                    Brothers Andre and Edouard Michelin founded their eponymous tire company, MICHELIN.
+                </li>
+
+                <li>
+                  <div>
+                    <time>1890</time>
+                    In order to help motorists develop their trips - thereby boosting car sales and in turn, tire purchases - the Michelin brothers produced a small guide filled with handy information for travellers, especially, a listing of places to eat or take shelter for the night.
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>1920 - 1926</time>
-                    A brand new MICHELIN Guide was launched and sold for seven francs based on the principle that “man only truly respects what he pays for.” The guide began to award stars for fine dining establishments, initially marking them only with a single star.
+                    <time>1920</time>
+                    A brand new MICHELIN Guide was launched and sold for seven francs based on the principle that “man only truly respects what he pays for.” 
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <time>1926</time>
+                    The guide began to award stars for fine dining establishments, initially marking them only with a single star.
                   </div>
                 </li>
 
@@ -88,8 +101,15 @@
 
                 <li>
                   <div>
-                    <time>1940 - Today</time>
-                    The MICHELIN Guides became best-sellers without equals. The remarkable foresight of the founding Michelin brothers has given the company a vocation to make driving, tourism and the search for unforgettable experiences available to all.
+                    <time>Late 20th Century</time>
+                    The MICHELIN Guides became best-sellers without equals. 
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <time>Today</time>
+                    The remarkable foresight of the founding Michelin brothers has given the company a vocation to make driving, tourism and the search for unforgettable experiences available to all.
                   </div>
                 </li>
 
