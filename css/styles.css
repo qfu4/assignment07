@@ -90,14 +90,14 @@ body {
 	letter-spacing: 0.8px;
 	border-radius: 40px;
 	background-color: #F0574B;
-	box-shadow: 5px 10px 28px #888888;
 	color: white;
-	border: none;
+	border: 3px #F0574B solid;
+	outline: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 30px;
 	padding-left: 30px;
-	top: 210px;
+	top: 230px;
 }
 
 section:nth-child(3) {
@@ -272,4 +272,7 @@ section:nth-child(6) {
 
 }
 
-
+.index button:hover {
+	background-color: white;
+	color: #F0574B;
+}
