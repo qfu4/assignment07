@@ -194,10 +194,11 @@
         <div class="container sixthContainer">
 
             <div class="content">
-              <h2>Take Our Survey About Michelin Guides</h2>
-              <p>Tell us your experience with Michelin Guides and with our website.</p>
-              <button onclick="window.location.href='survey.php'">Take the Survey</button>
+              <h2>What do you think? <i class="fa fa-thumbs-up"></i> or <i class="fa fa-thumbs-down"></i></h2>
+              <p>Take Our Survey About Michelin Guides！Tell us your experience with Michelin Guides and with our website.</p>
             </div><!-- .content -->
+
+            <button onclick="window.location.href='survey.php'">Let's share</button>
 
        </div><!-- .container -->
     </section>
