@@ -205,5 +205,5 @@
 
 <div class="map-location pin-de">
     <div class="dogras-location-bubble">Germany</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('germany')"><i class="fa fa-map-marker"></i></button></div>
 </div>

@@ -194,7 +194,7 @@
 
     <!-- Forth Section -->
     <section id="fifth">
-        <div class="container fifthContainer">
+        <div class="fifthContainer">
 
             <h1>Three-Star Michelin Restaurants</h1>
 
@@ -208,6 +208,8 @@
 
             <div class="list">
 
+              <h2>Country: </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
+
             	<?php include "restaurantlist.php";?>
 
             </div><!-- .content -->
@@ -219,8 +221,6 @@
 
     <section id="sixth">
         <div class="container">
-
-
 
             <div class="content">
 
@@ -290,6 +290,11 @@
         
       })
     });
+
+    function myFunction(elementId) {
+      document.getElementById("germany").style.display = "none";
+      document.getElementById(elementId).style.display = "block";
+    }
 
 </script>
 </body>

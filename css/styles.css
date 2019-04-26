@@ -38,6 +38,13 @@ body {
 	display: inline-flex;
 }
 
+.fifthContainer {
+	margin: 0 auto;
+	width: 100%;
+	align-self: center;
+	position: relative;
+}
+
 /*	State (for dynamic stuff)
 	**************************************** */
 .main-menu .is-current a { 
@@ -175,3 +182,7 @@ section:nth-child(6) {
 	margin-bottom: 20px;
 }
 
+
+.fifthContainer .list div {
+	display: none;
+}

@@ -1,20 +1,38 @@
+                <div id="austria" class="austria">                
                 <ul class="austria">
                     <li>Restaurant Amador</li>
                 </ul>
+                </div>
 
+                <div id="belgium" class="belgium">
                 <ul class="belgium">
                     <li>Hof van Cleve</li>
-                    
                 </ul>
+                </div>
                 
+                <div id="china" class="china">
                 <ul class="china">
                     <li>Ultraviolet</li>
+                    <li>Lung King Heen</li>
+                    <li>8½ Otto e Mezzo Bombana</li>
+                    <li>L'Atelier de Joël Robuchon</li>
+                    <li>Bo Innovation</li>
+                    <li>Sushi Shikon</li>
+                    <li>T'ang Court</li>
+                    <li>Caprice</li>
+                    <li>Jade Dragon</li>
+                    <li>Robuchon au Dôme</li>
+                    <li>The Eight</li>
                 </ul>
+                </div>
                 
+                <div id="denmark" class="denmark">
                 <ul class="denmark">
                     <li>Geranium</li>
                 </ul>
+                </div>
 
+                <div id="france" class="france">
                 <ul class="france">
                     <li>Clos de Sens</li>
                     <li>Maison Lameloise</li>
@@ -44,8 +62,10 @@
                     <li>Pic</li>
                     <li>Georges Blanc</li>
                 </ul>
+                </div>
 
-                <ul class="germany">
+                <div id="germany" class="germany">
+                <ul>
                     <li>Schwarzwaldstube</li>
                     <li>Restaurant Bareiss</li>
                     <li>Vendôme</li>
@@ -57,20 +77,9 @@
                     <li>GästeHaus Klaus Erfort</li>
                     <li>Aqua</li>
                 </ul>
-                
-                <ul class="hongkong-macau">
-                    <li>Lung King Heen</li>
-                    <li>8½ Otto e Mezzo Bombana</li>
-                    <li>L'Atelier de Joël Robuchon</li>
-                    <li>Bo Innovation</li>
-                    <li>Sushi Shikon</li>
-                    <li>T'ang Court</li>
-                    <li>Caprice</li>
-                    <li>Jade Dragon</li>
-                    <li>Robuchon au Dôme</li>
-                    <li>The Eight</li>
-                </ul>
+                </div>
 
+                <div id="italy" class="italy">
                 <ul class="italy">
                     <li>Piazza Duomo</li>
                     <li>Da Vittorio</li>
@@ -83,7 +92,9 @@
                     <li>St. Hubertus</li>
                     <li>Uliassi</li>
                 </ul>
+                </div>
                 
+                <div id="japan" class="japan">
                 <ul class="japan">
                     <li>Nakashima</li>
                     <li>Hyotei</li>
@@ -111,13 +122,15 @@
                     <li>Makimura</li>
                     <li>Kohaku</li>
                 </ul>
+                </div>
 
-
+                <div id="netherlands" class="netherlands">
                 <ul class="netherlands">
                     <li>De Leest</li>
                     <li>De Librije</li>
                     <li>Inter Scaldes</li>
                 </ul>
+                </div>
                 
                 <ul class="norway">
                     <li>Maaemo</li>
