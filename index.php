@@ -15,7 +15,7 @@
 <body>
 	 <!-- Navigation -->
     <nav class="main-menu">
-        <a id="logo" href="index.html">
+        <a id="logo" href="index.php">
         	<h1>Michelin Guide</h1>
         </a>
         <ul>
