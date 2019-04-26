@@ -35,7 +35,7 @@
 
             <div class="content">
               
-                <h1>The Ultimate Guide for FOODIE </h1>
+                <h2>The Ultimate Guide for FOODIE </h2>
 
             </div><!-- .content -->
 
@@ -50,7 +50,7 @@
 
             <div class="content">
 
-                <h1>About the Guide</h1>
+                <h2>About the Guide</h2>
                 <p>Michelin Guides are a series of guide books published by the French tyre company Michelin for more than a century. The term normally refers to the annually published Michelin Red Guide, the oldest European hotel and restaurant reference guide, which awards up to three Michelin stars for excellence to a select few establishments. The acquisition or loss of a star can have dramatic effects on the success of a restaurant. Michelin also publishes a series of general guides to cities, regions, and countries, the Green Guides.</p>
 
             </div><!-- .content -->
@@ -64,7 +64,7 @@
     <section id="second">
         <div class="container secondContainer">
 
-            <h1>History of Michelin Guide</h1>
+            <h2>History of Michelin Guide</h2>
 
             <div class="content timeline">
 
@@ -130,7 +130,7 @@
     <section id="third">
         <div class="container thirdContainer">
 
-            <h1>Core Values</h1>
+            <h2>Core Values</h2>
 
             <div class="content">
 
@@ -173,7 +173,7 @@
     <section id="forth">
         <div class="container forthContainer">
 
-            <h1>Assessment Criteria</h1>
+            <h2>Assessment Criteria</h2>
 
             <div class="content">
 
@@ -196,7 +196,7 @@
     <section id="fifth">
         <div class="fifthContainer">
 
-            <h1>Three-Star Michelin Restaurants</h1>
+            <h2>Three-Star Michelin Restaurants</h2>
 
             <div class="inner-container">
 
@@ -208,7 +208,7 @@
 
             <div class="list">
 
-              <h2>Country </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
+              <h3>Country</h3> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
 
             	<?php include "restaurantlist.php";?>
 
@@ -223,13 +223,10 @@
         <div class="container sixthContainer">
 
             <div class="content">
-
-              <a href="survey.php">
-                <h1>Take The Survey</h1>
-              </a>
-
+              <h2>Take Our Survey About Michelin Guides</h2>
+              <p>Tell us your experience with Michelin Guides and with our website.</p>
+              <button onclick="window.location.href='survey.php'">Take the Survey</button>
             </div><!-- .content -->
-
 
        </div><!-- .container -->
     </section>
