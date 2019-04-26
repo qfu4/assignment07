@@ -60,7 +60,7 @@
     <section id="second">
         <div class="container secondContainer">
 
-            <h1>History of Michelin Guides</h1>
+            <h1>History of Michelin Guide</h1>
 
             <div class="content timeline">
 
@@ -124,54 +124,50 @@
 
     <!-- Third Section -->
     <section id="third">
-        <div class="container">
+        <div class="container thirdContainer">
 
             <h1>Assessment Criteria and Core Values</h1>
-
-
-            <div class="content wells">
-              	<h2>Assessment Criteria</h2>
+              	
             	<p>To maintain the independence of their opinion, the inspectors always dine out anonymously, pay for their meals, and subsequently rate their experience according to five publicly acknowledged assessment criteria:</p>
            		<ul>
             		<li>Quality of the products</li>
-					<li>Mastery of flavour and cooking techniques</li>
-					<li>The personality of the chef in his cuisine</li>
-					<li>Value for money</li>
-					<li>Consistency between visits</li>
+					      <li>Mastery of flavour and cooking techniques</li>
+					      <li>The personality of the chef in his cuisine</li>
+					      <li>Value for money</li>
+					      <li>Consistency between visits</li>
             	</ul>
 
+            <div class="content">
 
-           		<h2>Core Values</h2>
-
-           	    <section>
+           	<div>
            	 		<h3>Anonymity</h3>
             		<p>Although our "inspectors" work for the Michelin guide, they are above all customers like any other, testing restaurants in complete anonymity in order to ensure that they do not receive any special treatment.</p>
-        		</section>
+        		</div>
 
-        		<section>
-					<h3>Independence</h3>
+        		<div>
+					      <h3>Independence</h3>
             		<p>All our inspectors are employees of the Michelin group, who always pay for their meals in the restaurants they are testing to ensure that they do not receive any special treatment</p>
-       	 		</section>
+       	 		</div>
 
-       	 		<section>
+       	 		<div>
             		<h3>Expertise</h3>
             		<p>Our inspectors are also real experts in the catering and hospitality industries, sectors in which many of them have previously worked.</p>
-        		</section>
+        		</div>
 			
-				<section>
+				    <div>
             		<h3>Reliability</h3>
             		<p>The different categories awarded by the guide are never just the result of one person's judgement; they are formed by a collective decision which is the result of a long process.</p>
-        		</section>
+        		</div>
 			
-				<section>
-					<h3>Passion</h3>
+				    <div>
+					      <h3>Passion</h3>
            		 	<p>What would be the point of so much work and such a strict approach if our inspectors did not enjoy eating?</p>
-        		</section>
+        		</div>
         	
-        		<section>    	
+        		<div>    	
             		<h3>Quality</h3>
             		<p>Any restaurant can be recommended by our guide as long as its food is of high quality.</p>
-        		</section>
+        		</div>
 
         </div><!-- .content -->
    

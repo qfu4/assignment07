@@ -26,13 +26,6 @@ p { margin-top: 0; }
 	justify-content: center;
 }
 
-.wells > * {
-	margin: 10px;
-	border: 1px solid #999999;
-	padding: 10px;
-	flex-basis: 100px;
-}
-
 .firstContainer {
 	display: inline-flex;
 }
@@ -116,3 +109,14 @@ section:nth-child(4) {
 	margin-bottom: 0px;
 }
 
+.thirdContainer .content > * {
+	margin: 10px;
+	border: 1px solid #999999;
+	padding: 10px;
+	flex-basis: 250px;
+	text-align: left;
+}
+
+.thirdContainer .content h3 {
+	text-align: center;
+}
