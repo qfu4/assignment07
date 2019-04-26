@@ -10,20 +10,6 @@ path {
   position: relative;
 }
 
-.map {
-  zoom: 75%;
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.inner-container{
-  display: inline-flex;
-}
-
 .US {
   fill: #eddde6;
 }
@@ -100,11 +86,11 @@ path {
   text-decoration: none;
   font-size: 36px; 
   color: #e9433a ;
+  z-index: 100;
 }
 
 .map-location { 
   position: absolute; 
-  z-index: 100;
 }
 
 .dogras-location-bubble { 
@@ -123,20 +109,27 @@ path {
   overflow: hidden;
   display: none;
   position: absolute;
-  z-index: 1;
+  z-index: 200;
   padding-bottom: 2px;
 }
 
 .pin-usa { 
-  
+  top:450px;
+  left: 295px;
 }
 
 .pin-fr {
-  
+  top: 415px;
+  left: 580px;
 }
 
 .pin-jp {
 
+}
+
+.pin-de {
+  top: 398px;
+  left: 600px;
 }
 
 .map-location:hover .dogras-location-bubble {

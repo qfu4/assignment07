@@ -44,7 +44,6 @@ body {
 	align-self: center;
 	position: relative;
 }
-
 /*	State (for dynamic stuff)
 	**************************************** */
 .main-menu .is-current a { 
@@ -182,7 +181,29 @@ section:nth-child(6) {
 	margin-bottom: 20px;
 }
 
-
 .fifthContainer .list div {
 	display: none;
+}
+
+.fifthContainer .list {
+	text-align: left;
+	width: 350px;
+}
+
+.fifthContainer .list li {
+	list-style: none;
+}
+
+.inner-container{
+  display: inline-flex;
+}
+
+.map {
+  zoom: 75%;
+  margin: 0;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }

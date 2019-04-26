@@ -184,13 +184,13 @@
 </svg>
 
 <div class="map-location pin-usa">
-    <div class="dogras-location-bubble">United States</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div id = "countryName" class="dogras-location-bubble">United States</div>
+    <div class="icons"><button type="button" onclick="myFunction('us')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-fr">
     <div class="dogras-location-bubble">France</div>
-    <div class="icons"><i class="fa fa-map-marker"></i></div>
+    <div class="icons"><button type="button" onclick="myFunction('france')"><i class="fa fa-map-marker"></i></button></div>
 </div>
 
 <div class="map-location pin-jp">
@@ -204,6 +204,6 @@
 </div>
 
 <div class="map-location pin-de">
-    <div class="dogras-location-bubble">Germany</div>
+    <div id = "countryName" class="dogras-location-bubble">Germany</div>
     <div class="icons"><button type="button" onclick="myFunction('germany')"><i class="fa fa-map-marker"></i></button></div>
 </div>

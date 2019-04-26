@@ -208,7 +208,7 @@
 
             <div class="list">
 
-              <h2>Country: </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
+              <h2>Country </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
 
             	<?php include "restaurantlist.php";?>
 
@@ -293,6 +293,8 @@
 
     function myFunction(elementId) {
       document.getElementById("germany").style.display = "none";
+      document.getElementById("us").style.display = "none";
+      document.getElementById("france").style.display = "none";
       document.getElementById(elementId).style.display = "block";
     }
 

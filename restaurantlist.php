@@ -1,17 +1,17 @@
                 <div id="austria" class="austria">                
-                <ul class="austria">
+                <ul>
                     <li>Restaurant Amador</li>
                 </ul>
                 </div>
 
                 <div id="belgium" class="belgium">
-                <ul class="belgium">
+                <ul>
                     <li>Hof van Cleve</li>
                 </ul>
                 </div>
                 
                 <div id="china" class="china">
-                <ul class="china">
+                <ul>
                     <li>Ultraviolet</li>
                     <li>Lung King Heen</li>
                     <li>8½ Otto e Mezzo Bombana</li>
@@ -23,17 +23,18 @@
                     <li>Jade Dragon</li>
                     <li>Robuchon au Dôme</li>
                     <li>The Eight</li>
+                    <li>Le Palais</li>
                 </ul>
                 </div>
                 
                 <div id="denmark" class="denmark">
-                <ul class="denmark">
+                <ul>
                     <li>Geranium</li>
                 </ul>
                 </div>
 
                 <div id="france" class="france">
-                <ul class="france">
+                <ul>
                     <li>Clos de Sens</li>
                     <li>Maison Lameloise</li>
                     <li>L'Auberge du Pont de Collonges - Paul Bocuse</li>
@@ -80,7 +81,7 @@
                 </div>
 
                 <div id="italy" class="italy">
-                <ul class="italy">
+                <ul>
                     <li>Piazza Duomo</li>
                     <li>Da Vittorio</li>
                     <li>Dal Pescatore</li>
@@ -95,7 +96,7 @@
                 </div>
                 
                 <div id="japan" class="japan">
-                <ul class="japan">
+                <ul>
                     <li>Nakashima</li>
                     <li>Hyotei</li>
                     <li>Kikunoi Honten</li>
@@ -125,23 +126,28 @@
                 </div>
 
                 <div id="netherlands" class="netherlands">
-                <ul class="netherlands">
+                <ul>
                     <li>De Leest</li>
                     <li>De Librije</li>
                     <li>Inter Scaldes</li>
                 </ul>
                 </div>
                 
-                <ul class="norway">
+                <div id="norway" class="norway">
+                <ul>
                     <li>Maaemo</li>
                 </ul>
-                
-                <ul class="south-korea">
+                </div>
+
+                <div id="south-korea" class="south-korea">
+                <ul>
                     <li>Gaon</li>
                     <li>La Yeon</li>
                 </ul>
-                
-                <ul class="spain">
+                </div>
+
+                <div id="spain" class="spain">
+                <ul>
                     <li>Lasarte</li>
                     <li>ABaC</li>
                     <li>Aponiente</li>
@@ -153,35 +159,35 @@
                     <li>Arzak</li>
                     <li>Akelare</li>
                     <li>Quique Dacosta Restaurante</li>
-                </ul>                   
+                </ul>
+                </div>                   
 
-                <ul class="sweden">
+                <div id="sweden" class="sweden">
+                <ul>
                     <li>Frantzén</li>
                 </ul>
-    
+                </div>
 
-                <ul class="switzerland">
+                <div id="switzerland" class="switzerland">
+                <ul>
                     <li>Cheval Blanc</li>
                     <li>Restaurant de l'Hôtel de Ville</li>
                     <li>Schloss Schauenstein</li>
                 </ul>
-                
+                </div>
 
-                <ul class="taiwan">
-                    <li>Le Palais</li>
-                </ul>
-
-
-                <ul class="uk">
+                <div id="uk" class="uk">
+                <ul>
                     <li>The Waterside Inn</li>
                     <li>The Fat Duck</li>
                     <li>Restaurant Gordon Ramsay</li>
                     <li>Alain Ducasse at the Dorchester</li>
                     <li>The Araki</li>
                 </ul>
+                </div>
 
-
-                <ul class="us">
+                <div id="us" class="us">
+                <ul>
                     <li>Alinea</li>
                     <li>SingleThread</li>
                     <li>Manresa</li>
@@ -198,3 +204,4 @@
                     <li>The Inn at Little Washington</li>
                     <li>The French Laundry</li>
                 </ul>
+                </div>
