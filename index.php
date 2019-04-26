@@ -15,10 +15,11 @@
 <body>
 	 <!-- Navigation -->
     <nav class="main-menu">
-        <a id="logo" href="index.html">
+        <a id="logo" href="index.php">
         	<h1>Michelin Guide</h1>
         </a>
         <ul>
+            <li><a href="#index">Home</a></li>
             <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
             <li><a href="#third">Assessment Criteria</a></li>
@@ -34,6 +35,8 @@
             <div class="content">
               
                 <h1>The Ultimate Guide to Finding The Best Restaurant</h1>
+
+                <button onclick="window.location.href='survey.php'">Take the Survey</button>
 
             </div><!-- .content -->
 
