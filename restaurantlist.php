@@ -54,8 +54,6 @@
                     <li>Régis et Jacques Marcon</li>
                     <li>La Vague d'Or</li>
                     <li>L'Assiette Champenoise</li>
-                    <li>Pic</li>
-                    <li>Georges Blanc</li>
                 </ul>
                 </div>
 
