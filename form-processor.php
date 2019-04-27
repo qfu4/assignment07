@@ -167,7 +167,7 @@ include "inc/html-top.php";
 
 	<form>
 
-	 	<h2>Thank You! Bon appétit.<?php echo $name; ?></h2>
+	 	<h2>Thank You! Bon appétit. <?php echo $name; ?></h2>
  		<p>Go back to <a href="survey.php">the survey</a>.</p>
 
   	</form>
