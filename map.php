@@ -180,20 +180,21 @@
     <path class="FJ" d="M980.53,508.61l-0.35,1.4l-0.23,0.16l-1.78,0.72l-1.79,0.61l-0.36,-1.09l1.4,-0.6l0.89,-0.16l1.64,-0.91L980.53,508.61zM974.69,512.92l-1.27,-0.36l-1.08,1l0.27,1.29l1.55,0.36l1.74,-0.4l0.46,-1.53l-0.96,-0.84L974.69,512.92z"></path>
     <path class="SE" d="M537.45,217.49L534.73,222.18L535.17,226.2L530.71,231.33L525.3,236.67L523.25,245.08L525.25,249.15L527.93,252.29L525.36,258.52L522.44,259.78L521.37,268.62L519.78,273.38L516.38,272.89L514.79,276.84L511.54,277.07L510.65,272.36L508.3,266.55L506.17,259.05L507.41,255.9L509.74,252.09L510.67,245.36L508.88,242.38L508.7,234.34L510.53,228.43L513.31,228.54L514.28,225.99L513.26,223.76L517.61,214.26L520.42,206.39L522.27,201.15L524.96,201.17L525.71,196.96L530.99,198.18L531.4,193.1L533.14,192.77L536.88,196.58L541.25,201.73L541.33,212.85L542.27,215.55z"></path>
     <path class="EG" d="M573.17,377.28L572.38,378.57L571.78,380.97L571.02,382.61L570.36,383.17L569.43,382.15L568.16,380.73L566.16,376.16L565.88,376.45L567.04,379.82L568.76,383L570.88,387.88L571.91,389.56L572.81,391.3L575.33,394.7L574.77,395.23L574.86,397.2L578.13,399.91L578.62,400.53L567.5,400.53L556.62,400.53L545.35,400.53L545.35,389.3L545.35,378.12L544.51,375.54L545.23,373.54L544.8,372.15L545.81,370.58L549.54,370.53L552.24,371.39L555.02,372.36L556.32,372.86L558.48,371.83L559.63,370.9L562.11,370.63L564.1,371.04L564.87,372.66L565.52,371.59L567.76,372.36L569.95,372.55L571.33,371.73z"></path>
-  </g>
-</svg>
 
-<div class="map-location pin-usa">
+  </g>
+
+     <div class="country-location">
+     <div class="map-location pin-usa">
     <div class="dogras-location-bubble">United States</div>
     <div class="icons"><button id="us1" type="button" value="United States" onclick="myFunction('us'); myFunction1('us1');"><i class="fa fa-map-marker"></i></button></div>
-</div>
+    </div>
 
-<div class="map-location pin-fr">
+    <div class="map-location pin-fr">
     <div class="dogras-location-bubble">France</div>
     <div class="icons"><button id="france1" type="button" value="France" onclick="myFunction('france'); myFunction1('france1');"><i class="fa fa-map-marker"></i></button></div>
-</div>
+    </div>
 
-<div class="map-location pin-jp">
+    <div class="map-location pin-jp">
     <div class="dogras-location-bubble">Japan</div>
     <div class="icons"><button id="japan1" type="button" value="Japan" onclick="myFunction('japan'); myFunction1('japan1');"><i class="fa fa-map-marker"></i></button></div>
 </div>
@@ -257,3 +258,8 @@
     <div class="dogras-location-bubble">Sweden</div>
     <div class="icons"><button id="sweden1" type="button" value="Sweden" onclick="myFunction('sweden'); myFunction1('sweden1')"><i class="fa fa-map-marker"></i></button></div>
 </div>
+</div>
+</svg>
+
+
+
