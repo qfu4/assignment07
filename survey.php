@@ -45,8 +45,9 @@
 
     </form>
 
-    <footer> 
-        <a class="login" href="login.php">Login as an administrative</a>
-    </footer>
+<?php include "inc/footer.inc";?>
+
+<?php include "inc/js.php";?>
+
 </body>
 </html>
