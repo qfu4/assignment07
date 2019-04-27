@@ -1,4 +1,5 @@
-<?php include "inc/html-top.inc";?>
+<?php $nav = 'css/nav.css'; ?>
+<?php include "inc/html-top.php";?>
 
     <!-- Top Section -->
     <section id="index" class="index">
@@ -205,7 +206,7 @@
        </div><!-- .container -->
     </section>
     
-<?php include "inc/footer.inc";?>
+<?php include "inc/footer.php";?>
 
 <?php include "inc/js.php";?>
 

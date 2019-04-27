@@ -1,6 +1,6 @@
 
 
-<?php include "inc/html-top.inc";?>
+<?php include "inc/html-top.php";?>
 
 <div class="surveyContainer">
     
@@ -51,7 +51,7 @@
 
 </div>
 
-<?php include "inc/footer.inc";?>
+<?php include "inc/footer.php";?>
 
 <?php include "inc/js.php";?>
 
