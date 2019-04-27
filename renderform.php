@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php
 // creates the edit record form
-function renderForm($id, $firstname, $lastname, $phone, $email, $error) {
+function renderForm($id, $name, $email, $address, $q1, $q2,$q3,$q4,$q5,$error) {
 ?>
 <!doctype html>
 <html>
@@ -28,21 +28,22 @@ if ($error != '') {
 		<label for="id">ID:</label> <?php echo $id; ?><br>
 	</div>
 	<div class="form-group">
-		<label for="firstname">First Name: *</label> 
-		<input class="form-control" id="firstname" type="text" name="firstname" placeholder="Enter Your First Name" value="<?php echo $firstname; ?>"/>
+		<label for="name"> Name: *</label> 
+		<input class="form-control" id="firstname" type="text" name="name" placeholder="Enter Your First Name" value="<?php echo $name; ?>"/>
 	</div>
-	<div class="form-group">
-		<label for="lastname">Last Name: *</label> 
-		<input class="form-control" id="lastname" type="text" name="lastname" placeholder="Enter Your Last Name" value="<?php echo $lastname; ?>"/>
-	</div>
-	<div class="form-group">
-		<label for="phone">Phone: *</label> 
-		<input class="form-control" id="phone" type="text" name="phone" placeholder="Enter Your Phone" value="<?php echo $phone; ?>"/>
-	</div>
+
 	<div class="form-group">
 		<label for="email">Email: *</label> 
 		<input class="form-control" id="email" type="text" name="email" placeholder="Enter Your Email" value="<?php echo $email; ?>"/>
 	</div>
+
+	<div class="form-group">
+		<label for="address">Address: *</label> 
+		<input class="form-control" id="address" type="text" name="address" placeholder="Enter Your Address" value="<?php echo $address; ?>"/>
+	</div>
+	
+
+
 	<div class="form-group">* required</div>
 	<input class="btn btn-primary" type="submit" id="submit" name="submit" value="Submit">
 </form>
