@@ -59,7 +59,7 @@ $body .= "Thank you for filling up this survey!\n";
 $body .= "This is a confirmation email from "; //...a label
 $body .= $subject;      //...a variable
 $body .= ".\n\n";              //...a new line
-$body .= "Bon appétit!\n\n";  
+ 
  //...a label
 // $body .= $address;      //...a variable             //...a new line
 // ...used more input fields? Then copy these lines (above)
@@ -85,27 +85,53 @@ $body .= "Bon appétit!\n\n";
 //   and make more
 
 // This is for your radio buttons (always just one answer)...
-// $body .= "Have you ever heard of Michelin restaurant guides before?: \n";       // a heading for your radio button section
-// $body .= $favorite1;            // the (one) radio button variable
-// $body .= "\n\n";
 
-// $body .= "Do you consider yourself as a foodie?: \n";       // a heading for your radio button section
-// $body .= $favorite2;            // the (one) radio button variable
-// $body .= "\n\n";
-
-// $body .= "After reviewing our introduction, do you think Michelin restaurant guide is reliable or not?: \n";       // a heading for your radio button section
-// $body .= $favorite3;            // the (one) radio button variable
-// $body .= "\n\n";
-
-// $body .= "Will you try a Michelin restaurant in the future?: \n";       // a heading for your radio button section
-// $body .= $favorite4;            // the (one) radio button variable
-// $body .= "\n\n";
-
-// $body .= "On scale of 0 ~ 5, how helpful do you think our website is?: \n";       // a heading for your radio button section
-// $body .= $score5;            // the (one) radio button variable
-// $body .= "\n\n";
+// $favorite1=$_POST['favorite1'];
+// $message1="You selected".$favorite1.".";
 
 
+// $favorite2=$_POST['favorite2'];
+// $message2="You selected".$favorite2.".";
+
+// $favorite3=$_POST['favorite3'];
+// $message3="You selected".$favorite3.".";
+
+// $favorite4=$_POST['favorite4'];
+// $message4="You selected".$favorite4.".";
+
+// $score=$_POST['score'];
+// $message5="You selected".$score.".";
+
+
+
+$body .= "Have you ever heard of Michelin restaurant guides before? \n";       // a heading for your radio button section
+$favorite1 .= $_POST['favorite1'];  
+$body .= "You selected:".  $favorite1.".";         // the (one) radio button variable
+$body .= "\n\n";
+
+
+$body .= "Have you ever heard of Michelin restaurant guides before? \n";       // a heading for your radio button section
+$favorite2 .= $_POST['favorite2'];  
+$body .= "You selected:".  $favorite2.".";         // the (one) radio button variable
+$body .= "\n\n";
+
+$body .= "Have you ever heard of Michelin restaurant guides before? \n";       // a heading for your radio button section
+$favorite3 .= $_POST['favorite3'];  
+$body .= "You selected:".  $favorite3.".";         // the (one) radio button variable
+$body .= "\n\n";
+
+$body .= "Have you ever heard of Michelin restaurant guides before? \n";       // a heading for your radio button section
+$favorite4 .= $_POST['favorite4'];  
+$body .= "You selected:".  $favorite4.".";         // the (one) radio button variable
+$body .= "\n\n";
+
+$body .= "Have you ever heard of Michelin restaurant guides before? \n";       // a heading for your radio button section
+$score .= $_POST['score'];  
+$body .= "You selected:".  $score.".";         // the (one) radio button variable
+$body .= "\n\n";
+
+
+$body .= "Bon appétit!\n\n"; 
 // This is for your TEXTAREA
 // $body .= "_____________: \n";       // a heading for your text area
 // $body .= $_____________;            // the variable for your text area
