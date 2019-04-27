@@ -1,6 +1,10 @@
 
 
-<?php include "inc/html-top.inc";?>
+<?php include "inc/html-top.php";?>
+
+<div class="surveyContainer">
+    
+    <h2>Survey</h2>
 
     <form method="post" action="form-processor.php">
     	<fieldset>
@@ -45,8 +49,11 @@
 
     </form>
 
-    <footer> 
-        <a class="login" href="login.php">Login as an administrative</a>
-    </footer>
+</div>
+
+<?php include "inc/footer.php";?>
+
+<?php include "inc/js.php";?>
+
 </body>
 </html>
