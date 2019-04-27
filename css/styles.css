@@ -9,6 +9,17 @@ h1, h2, h3 {
 
 body {
 	font-family: 'Scope One', serif;
+	margin-bottom: 0px;
+}
+
+footer {
+	margin-top: 0px;
+	background-color: #1c1731;
+	padding-top: 1px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 2fr
 }
 
 /*	Modules (reusable classes)
@@ -59,6 +70,7 @@ body {
 	background-repeat: no-repeat;
   	background-size: cover;
 }
+
 /*	State (for dynamic stuff)
 	**************************************** */
 .main-menu .is-current a { 
@@ -318,6 +330,10 @@ section:nth-child(6) {
 
 .sixthContainer .fa-thumbs-up {
 	color: #F0574B;
+}
+
+.footer h2 {
+	
 }
 
 .index button:hover {

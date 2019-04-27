@@ -204,8 +204,7 @@
 
        </div><!-- .container -->
     </section>
-
-
+ 
     <footer>
     	<h2>Sources</h2>
     	<ul>
@@ -214,7 +213,7 @@
     	<li><a href="https://en.wikipedia.org/wiki/Michelin_Guide">Introduction</a></li>
     	<li><a href="https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants">List of Michelin 3-star restaurants</a></li></ul>
 
-      <a class="login" href="login.php">Login as an administrative</a>
+      <a class="login" href="login.php">Login as an Administrator</a>
     </footer>
     <!-- Smooth scroll with current-section highligher, from https://codepen.io/joxmar/pen/NqqMEg -->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
