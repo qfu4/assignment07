@@ -445,6 +445,15 @@ footer a {
 	letter-spacing: 1px;
 }
 
+form a {
+	text-decoration: none;
+	color: #F0574B;
+}
+
+.thankyou {
+	padding-bottom: 150px;
+}
+
 .index button:hover {
 	background-color: white;
 	color: #F0574B;

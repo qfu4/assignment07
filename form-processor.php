@@ -156,20 +156,25 @@ mail($emailTo, $subject, $body, "From: <$emailFrom>");
      for the user
      ********************************** -->
 
+<?php $nav = 'css/surveynav.css'; ?>
 <?php
 
-include "inc/html-top.inc";
+include "inc/html-top.php";
 ?>
 
 
-<main class= "full-width">
+<div class= "surveyContainer thankyou">
 
-	 <h2>Thank You! Bon appétit.<?php echo $name; ?></h2>
-  <p>Go back to <a href="survey.php">the survey</a>.</p>
+	<form>
 
-</main>
+	 	<h2>Thank You! Bon appétit.<?php echo $name; ?></h2>
+ 		<p>Go back to <a href="survey.php">the survey</a>.</p>
 
+  	</form>
 
+</div>
+
+<?php include "inc/footer.php";?>
 
 
 </body>
