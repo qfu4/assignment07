@@ -5,16 +5,18 @@
     
     <form method="post" action="form-processor.php">
 
-        <h2>Survey</h2>
+        <h2>Let's get to know about you</h2>
 
-    	<fieldset>
+    	<fieldset class="ps">
+
     		<legend>Personal Information</legend>
-    		<label for="name">Name:</label><input type="text" name="name" id="name" placeholder="Full Name"><br>
-    		<label for="email">E-mail:</label><input type="email" name="email" id="email" placeholder="email@example.com"><br>
-            <label for="address">Address:</label><input type="address" name="address" id="address" placeholder="Rochester"><br>
+    		<label for="name">Name</label><br><input type="text" name="name" id="name" placeholder="Full Name"><br>
+    		<label for="email">E-mail</label><br><input type="email" name="email" id="email" placeholder="email@example.com"><br>
+            <label for="email">Your City</label><br><input type="text" name="city" id="city" placeholder="Rochester"><br>
+
     	</fieldset>
 
-    	<fieldset>
+    	<fieldset class="questions">
     		<legend>Questions</legend>
     		<h3>Have you ever heard of Michelin restaurant guides before?</h3>
     			<input type="radio" name="favorite1" id="yes-heard" value="Yes"><label for="yes-heard">Yes</label>
