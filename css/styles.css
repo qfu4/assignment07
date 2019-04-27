@@ -15,11 +15,17 @@ body {
 footer {
 	margin-top: 0px;
 	background-color: #1c1731;
-	padding-top: 1px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	color: white;
 	font-family: 'Poppins', sans-serif;
-	display: grid;
-	grid-template-columns: 1fr 2fr
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
+}
+
+footer * {
+	border: 1px white solid;
 }
 
 /*	Modules (reusable classes)
@@ -332,7 +338,11 @@ section:nth-child(6) {
 	color: #F0574B;
 }
 
-.footer h2 {
+.footer ul {
+
+}
+
+.footer button{
 	
 }
 
