@@ -3,7 +3,7 @@
 	**************************************** */
 p { margin-top: 0; }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -52,6 +52,13 @@ body {
 	align-self: center;
 	position: relative;
 }
+
+.survey {
+	background-image: url("../images/surveypage.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
 /*	State (for dynamic stuff)
 	**************************************** */
 .main-menu .is-current a { 
@@ -76,7 +83,7 @@ body {
 	text-align: center;
 }
 
-.index h1 {
+.index h2 {
 	font-weight: bolder;
 	font-size: 38px;
 }
@@ -98,6 +105,12 @@ body {
 	padding-right: 30px;
 	padding-left: 30px;
 	top: 230px;
+}
+
+.index span {
+	font-size: 42px;
+	border-bottom: 5px #F0574B solid;
+	color: white;
 }
 
 section:nth-child(3) {
@@ -127,7 +140,7 @@ section:nth-child(3) {
 	left: 100px;
 }
 
-.firstContainer .content h1 {
+.firstContainer .content h2 {
 	
 	letter-spacing: 1px;
 	font-size: 30px;
@@ -147,7 +160,7 @@ section:nth-child(4) {
 }
 
 
-.secondContainer h1{
+.secondContainer h2{
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-bottom: 0px;
@@ -173,7 +186,7 @@ section:nth-child(5) {
 	width: 30%;
 }
 
-.thirdContainer h1{
+.thirdContainer h2{
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-bottom: 60px;
@@ -207,7 +220,7 @@ section:nth-child(6) {
 	color: #5a5a5a;
 }
 
-.forthContainer h1 {
+.forthContainer h2 {
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-bottom: 20px;
@@ -227,16 +240,17 @@ section:nth-child(6) {
   overflow: hidden;
 }
 
-.fifthContainer h1 {
+.fifthContainer h2 {
 	letter-spacing: 1px;
 	font-size: 30px;
 	margin-bottom: 20px;
 	margin-top: 50px;
 }
 
-.fifthContainer h2 {
-	font-family: 'Poppins', sans-serif;
+.fifthContainer h3 {
 	margin-bottom: 10px;
+	color: #5a5a5a;
+	font-size: 18px;
 }
 
 .fifthContainer .list div {
@@ -272,7 +286,46 @@ section:nth-child(6) {
 
 }
 
+.fifthContainer .list span {
+	margin-left: 10px;
+	color: black;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.sixthContainer h2 {
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+.sixthContainer p {
+	color: #5a5a5a;
+}
+
+.sixthContainer button {
+	border-radius: 40px;
+	background-color: #F0574B;
+	outline: none;
+	font-size: 24px;
+	font-weight: 500;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 3px #F0574B solid;
+}
+
+.sixthContainer .fa-thumbs-up {
+	color: #F0574B;
+}
+
 .index button:hover {
+	background-color: white;
+	color: #F0574B;
+}
+
+.sixthContainer button:hover {
 	background-color: white;
 	color: #F0574B;
 }

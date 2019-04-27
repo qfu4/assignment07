@@ -81,7 +81,7 @@ path {
   margin: none;
   text-decoration: none;
   font-size: 36px; 
-  color: #e9433a ;
+  color: #e9433a;
   z-index: 100;
   outline: none;
 }
@@ -183,6 +183,7 @@ path {
   top: 360px;
   left: 625px;
 }
+
 
 .map-location:hover .dogras-location-bubble {
   display: block;

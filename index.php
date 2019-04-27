@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Michelin Guides</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/long-scrolly.css">
-	<link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/timeline.css">
-	<link rel="stylesheet" href="css/map.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
-</head>
-
-<body>
-	 <!-- Navigation -->
-    <nav class="main-menu">
-        <a id="logo" href="index.php">
-        	<h1>Michelin Guide</h1>
-        </a>
-        <ul>
-            <li><a href="#first">Intro</a></li>
-            <li><a href="#second">History</a></li>
-            <li><a href="#third">Values</a></li>
-            <li><a href="#forth">Criteria</a></li>
-            <li><a href="#fifth">Restaurants</a></li>
-            <li><a href="#sixth">Survey</a><li>
-        </ul>
-    </nav>
+<?php include "inc/html-top.inc";?>
 
     <!-- Top Section -->
     <section id="index" class="index">
@@ -35,7 +6,7 @@
 
             <div class="content">
               
-                <h1>The Ultimate Guide for FOODIE </h1>
+                <h2>The Ultimate Guide for <span>FOODIE</span></h2>
 
             </div><!-- .content -->
 
@@ -50,7 +21,7 @@
 
             <div class="content">
 
-                <h1>About the Guide</h1>
+                <h2>About the Guide</h2>
                 <p>Michelin Guides are a series of guide books published by the French tyre company Michelin for more than a century. The term normally refers to the annually published Michelin Red Guide, the oldest European hotel and restaurant reference guide, which awards up to three Michelin stars for excellence to a select few establishments. The acquisition or loss of a star can have dramatic effects on the success of a restaurant. Michelin also publishes a series of general guides to cities, regions, and countries, the Green Guides.</p>
 
             </div><!-- .content -->
@@ -64,7 +35,7 @@
     <section id="second">
         <div class="container secondContainer">
 
-            <h1>History of Michelin Guide</h1>
+            <h2>History of Michelin Guide</h2>
 
             <div class="content timeline">
 
@@ -130,7 +101,7 @@
     <section id="third">
         <div class="container thirdContainer">
 
-            <h1>Core Values</h1>
+            <h2>Core Values</h2>
 
             <div class="content">
 
@@ -173,7 +144,7 @@
     <section id="forth">
         <div class="container forthContainer">
 
-            <h1>Assessment Criteria</h1>
+            <h2>Assessment Criteria</h2>
 
             <div class="content">
 
@@ -196,7 +167,7 @@
     <section id="fifth">
         <div class="fifthContainer">
 
-            <h1>Three-Star Michelin Restaurants</h1>
+            <h2>Three-Star Michelin Restaurants</h2>
 
             <div class="inner-container">
 
@@ -208,7 +179,7 @@
 
             <div class="list">
 
-              <h2>Country </h2> <b><?php echo htmlspecialchars($_SESSION["countryName"]); ?></b>
+              <h3>Country <span id="countryName"></span></h3> 
 
             	<?php include "restaurantlist.php";?>
 
@@ -219,29 +190,31 @@
        </div><!-- .container -->
     </section>
 
-    <section id="sixth">
+    <section id="sixth" class="survey">
         <div class="container sixthContainer">
 
+            <h2>What do you think? <i class="fa fa-thumbs-up"></i> or <i class="fa fa-thumbs-down"></i></h2>
+            
             <div class="content">
-
-              <a href="survey.php">
-                <h1>Take The Survey</h1>
-              </a>
-
+              <p>Take Our Survey About Michelin Guides! <br> Tell us your experience with Michelin Guides and with our website.</p>
+              <p></p>
             </div><!-- .content -->
 
+            <button onclick="window.location.href='survey.php'">Let's share</button>
 
        </div><!-- .container -->
     </section>
 
 
     <footer>
-    	<h2>Source</h2>
+    	<h2>Sources</h2>
     	<ul>
     	<li><a href="https://guide.michelin.com/us/new-york/about-us">History</a></li>
     	<li><a href="https://guide.michelin.com/us/new-york/the-inspection-process">Inspection Process</a></li>
     	<li><a href="https://en.wikipedia.org/wiki/Michelin_Guide">Introduction</a></li>
     	<li><a href="https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants">List of Michelin 3-star restaurants</a></li></ul>
+
+      <a class="login" href="login.php">Login as an administrative</a>
     </footer>
     <!-- Smooth scroll with current-section highligher, from https://codepen.io/joxmar/pen/NqqMEg -->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -310,6 +283,11 @@
       document.getElementById("sweden").style.display = "none";
       document.getElementById("netherlands").style.display = "none";
       document.getElementById(elementId).style.display = "block";
+    }
+
+    function myFunction1(elementId1) {
+      var x = document.getElementById(elementId1).value;
+      document.getElementById("countryName").innerHTML = x;
     }
 
 </script>
