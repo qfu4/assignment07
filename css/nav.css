@@ -1,0 +1,21 @@
+.main-menu .is-current a { 
+	font-weight: bolder;
+	color: #F0574B;
+}
+
+.main-menu h1 {
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	word-spacing: 10px;
+	padding-left: 10px;
+	font-size: 35px;
+	letter-spacing: 1.5px;
+}
+
+.main-menu ul {
+	margin-top: 23px;
+	font-size: 16px;
+	text-align: center;
+}
