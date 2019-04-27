@@ -19,13 +19,7 @@ footer {
 	padding-bottom: 50px;
 	color: white;
 	font-family: 'Poppins', sans-serif;
-	display: inline-flex;
 	width: 100%;
-	align-items: center;
-}
-
-footer * {
-	border: 1px white solid;
 }
 
 /*	Modules (reusable classes)
@@ -75,6 +69,15 @@ footer * {
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
+}
+
+.footerContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	align-self: center;
+	position: relative;
+	width: 100%;
 }
 
 /*	State (for dynamic stuff)
@@ -338,12 +341,39 @@ section:nth-child(6) {
 	color: #F0574B;
 }
 
-.footer ul {
-
+footer h2 {
+	text-align: center;
+	border-bottom: 2px solid #F0574B;
+	width: 180px;
+	margin-left: 100px;
 }
 
-.footer button{
-	
+footer button{
+	margin-left: 50px;
+	width: 250px;
+	height: 50px;
+	align-items: center;
+	background-color: #1c1731;
+	border: 5px double #F0574B;
+	font-size: 15px;
+	color: white;
+	font-weight: 500;
+}
+
+footer span {
+	font-size: 20px;
+	border-bottom: 2px solid #F0574B;
+}
+
+footer li{
+	margin-top: 5px;
+	list-style: none;
+	font-size: 15px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
 }
 
 .index button:hover {
