@@ -1,21 +1,10 @@
-/*	****************************************
-	Base styles
-	**************************************** */
-html, body {
-    height: 100%; /* magic for long scolly pages with sections, part 1 */
-    margin: 0; /* typical - gets rid of the default margin on the BODY */
-}
-
-/*	****************************************
-	Persistent (Fixed) Navigation
-	**************************************** */
 .main-menu {
-	position: fixed; /* required - magic */
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
-	background-color: transparent; 
+	background-color: #f5f2ed; 
 	padding-top: 10px;
+	height: 60px;
 }
 
 .main-menu ul {
@@ -37,18 +26,32 @@ html, body {
 	padding-left: 15px;
 	font-family: 'Poppins', sans-serif;
 }
+
+.main-menu .is-current a { 
+	font-weight: bolder;
+	color: #F0574B;
+}
+
+.main-menu h1 {
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	word-spacing: 10px;
+	padding-left: 10px;
+	font-size: 35px;
+	letter-spacing: 1.5px;
+}
+
+.main-menu ul {
+	margin-top: 23px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
 .main-menu a:hover { color: #000000; }
 
 .main-menu #logo {
 	float:left;
-}
-
-/*	****************************************
-	Long-scrolly sections
-	**************************************** */
-section {
-    min-height: 100%;  /* magic for long scolly pages with sections, part 2 */
-    /*padding-top: 75px;*/ /* how tall is the persistent nav bar at the top? */
-    display: flex;
-    text-align: center; /* typical for long scrolly pages */
 }

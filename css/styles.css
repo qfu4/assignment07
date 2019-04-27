@@ -22,6 +22,15 @@ footer {
 	width: 100%;
 }
 
+form {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px; 
+	align-self: center;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+}
+
 /*	Modules (reusable classes)
 	**************************************** */
 .index{
@@ -81,9 +90,8 @@ footer {
 }
 
 .surveyContainer {
-	padding-top: 100px;
-	margin-top: 0;
 	background-color: #f5f2ed;
+	padding-top: 10px;
 }
 
 /*	State (for dynamic stuff)
@@ -359,6 +367,15 @@ footer li{
 footer a {
 	text-decoration: none;
 	color: white;
+}
+
+.surveyContainer h2 {
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.surveyContianer {
+
 }
 
 .index button:hover {

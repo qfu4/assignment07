@@ -1,17 +1,17 @@
-
-
+<?php $nav = 'css/surveynav.css'; ?>
 <?php include "inc/html-top.php";?>
 
 <div class="surveyContainer">
     
-    <h2>Survey</h2>
-
     <form method="post" action="form-processor.php">
+
+        <h2>Survey</h2>
+
     	<fieldset>
     		<legend>Personal Information</legend>
-    		<label for="name">Name:</label><input type="text" name="name" id="name" placeholder="Full Name">
-    		<label for="email">E-mail:</label><input type="email" name="email" id="email" placeholder="email@example.com"> 
-            <label for="address">Address:</label><input type="address" name="address" id="address" placeholder="Rochester">
+    		<label for="name">Name:</label><input type="text" name="name" id="name" placeholder="Full Name"><br>
+    		<label for="email">E-mail:</label><input type="email" name="email" id="email" placeholder="email@example.com"><br>
+            <label for="address">Address:</label><input type="address" name="address" id="address" placeholder="Rochester"><br>
     	</fieldset>
 
     	<fieldset>
@@ -52,8 +52,6 @@
 </div>
 
 <?php include "inc/footer.php";?>
-
-<?php include "inc/js.php";?>
 
 </body>
 </html>
