@@ -23,7 +23,7 @@
 include('connect-db.php');
 
 // get results from database
-$result = mysqli_query($connection, "SELECT * FROM yzeng_phonebook");
+$result = mysqli_query($connection, "SELECT * FROM queens_table");
 ?>
 
 <table class="table table-striped table-hover table-bordered">
