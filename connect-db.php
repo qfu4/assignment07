@@ -1,9 +1,9 @@
 <?php
 // Database Variables (edit with your own server information)
 $server = 'localhost';
-$user = 'queens';
-$pass = 'coffee';
-$db = 'queens';
+$user = 'urcscon3_queens';
+$pass = 'shafieul1996';
+$db = 'urcscon3_queens';
 // Connect to Database
 $connection = mysqli_connect($server,$user,$pass,$db);
 if (!$connection) {

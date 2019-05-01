@@ -64,7 +64,7 @@ while($row = mysqli_fetch_array( $result )) {
       <td><a onclick="return confirm('Are you sure you want to delete ID: <?php echo $row["id"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
     <?php } ?>
   </tr>
-</tbody>
+</body>
 <?php
 // close the loop
 }
@@ -84,3 +84,5 @@ while($row = mysqli_fetch_array( $result )) {
   mysqli_free_result($result);
   mysqli_close($connection);
 ?>
+
+

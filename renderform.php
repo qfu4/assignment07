@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php
 // creates the edit record form
-function renderForm($id, $name, $email, $address, $q1, $q2,$q3,$q4,$q5,$error) {
+function renderForm($id, $name, $email, $address,$favorite1,$favorite2,$favorite3,$favorite4,$score,$error) {
 ?>
 <!doctype html>
 <html>
@@ -44,33 +44,33 @@ if ($error != '') {
 	
 	<div class="form-group">
 		<label for="q1">q1: *</label> 
-		<input class="form-control" id="q1" type="text" name="q1" value="<?php echo $q1; ?>"/>
+		<input class="form-control" id="q1" type="text" name="favorite1" value="<?php echo $q1; ?>"/>
 	</div>
 
 	<div class="form-group">
 		<label for="q2">q2: *</label> 
-		<input class="form-control" id="q2" type="text" name="q2" value="<?php echo $q2; ?>"/>
+		<input class="form-control" id="q2" type="text" name="favorite2" value="<?php echo $q2; ?>"/>
 	</div>
 
 
 
 	<div class="form-group">
 		<label for="q3">q3: *</label> 
-		<input class="form-control" id="q3" type="text" name="q3" value="<?php echo $q3; ?>"/>
+		<input class="form-control" id="q3" type="text" name="favorite3" value="<?php echo $q3; ?>"/>
 	</div>
 
 
 
 	<div class="form-group">
 		<label for="q4">q4: *</label> 
-		<input class="form-control" id="q4" type="text" name="q4" value="<?php echo $q4; ?>"/>
+		<input class="form-control" id="q4" type="text" name="favorite4" value="<?php echo $q4; ?>"/>
 	</div>
 
 
 
 	<div class="form-group">
 		<label for="q5">q5: *</label> 
-		<input class="form-control" id="q5" type="text" name="q5" value="<?php echo $q5; ?>"/>
+		<input class="form-control" id="q5" type="text" name="score" value="<?php echo $q5; ?>"/>
 	</div>
 
 	<div class="form-group">* required</div>

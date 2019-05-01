@@ -15,7 +15,9 @@
 
      // save the data to the database
 		$result = mysqli_query($connection, "INSERT INTO queens_table (name,email,address,q1,q2,q3,q4,q5) VALUES ('$name','$email','$address', '$q1', '$q2', '$q3', '$q4', '$q5')");
-       // header("location: survey.php submit=success");
+
+		// header("Location: welcome.php");
+       // header("Location: welcome.php submit=success");
 
     ?>
 
