@@ -67,7 +67,9 @@
     }
 
     function myFunction1(elementId1) {
-      var x = document.getElementById(elementId1).value;
+      if (elementId1 == 'uk1') {var x = "United kingdom"}
+      else if (elementId1 == 'switzerland1') {var x = "Switzerland"}
+      else if (elementId1 == 'netherlands1') {var x = "Netherlands"}
       document.getElementById("countryName").innerHTML = x;
     }
 
