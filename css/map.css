@@ -92,6 +92,7 @@ path {
 
 .dogras-location-bubble { 
   position: absolute; 
+  font-family: 'Poppins', sans-serif;
   top: -20px; 
   left: 23px; 
   width: 110px;
@@ -172,6 +173,7 @@ path {
 
 .pin-no {
   top: 380px;
+  left: 603px;
 }
 
 .pin-kr {
