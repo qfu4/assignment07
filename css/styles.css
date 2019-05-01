@@ -64,6 +64,11 @@ form {
 	width: 100%;
 	align-self: center;
 	position: relative;
+	height: 100%;
+}
+
+.index * {
+	border: 1px hotpink solid;
 }
 
 .firstContainer {
@@ -101,6 +106,9 @@ form {
 
 /*	State (for dynamic stuff)
 	**************************************** */
+.index .content {
+	vertical-align: middle;
+}
 
 .index h2 {
 	font-weight: bolder;
@@ -110,7 +118,7 @@ form {
 .index button {
 	position: relative;
 	float: right;
-	margin-right: 15px;
+	margin-right: 1%;
 	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: 0.8px;
@@ -123,7 +131,6 @@ form {
 	padding-bottom: 20px;
 	padding-right: 30px;
 	padding-left: 30px;
-	top: 230px;
 }
 
 .index span {
