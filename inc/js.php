@@ -67,7 +67,21 @@
     }
 
     function myFunction1(elementId1) {
-      var x = document.getElementById(elementId1).value;
+      if (elementId1 == 'uk1') {var x = "United Kingdom"}
+      else if (elementId1 == 'switzerland1') {var x = "Switzerland"}
+      else if (elementId1 == 'netherlands1') {var x = "Netherlands"}
+      else if (elementId1 == 'us1') {var x = "United States"}  
+      else if (elementId1 == 'japan1') {var x = "Japan"}
+      else if (elementId1 == 'norway1') {var x = "Norway"}
+      else if (elementId1 == 'sweden1') {var x = "Sweden"}
+      else if (elementId1 == 'spain1') {var x = "Spain"}
+      else if (elementId1 == 'south-korea1') {var x = "South Korea"}
+      else if (elementId1 == 'china1') {var x = "China"}
+      else if (elementId1 == 'germany1') {var x = "Germany"}
+      else if (elementId1 == 'france1') {var x = "France"}
+      else if (elementId1 == 'denmark1') {var x = "Denmark"}
+      else if (elementId1 == 'austria1') {var x = "Austria"}
+      else if (elementId1 == 'italy1') {var x = "Italy"}
       document.getElementById("countryName").innerHTML = x;
     }
 
