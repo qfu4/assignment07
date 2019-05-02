@@ -1,9 +1,11 @@
 <?php $nav = 'css/surveynav.css'; ?>
 <?php include "inc/html-top.php";?>
-
 <div class="surveyContainer">
     
-    <form method="post" action="form-processor.php">
+     <form method="post" action="form-processor.php" >
+   <!--  <form method="post" action="include.php"> -->
+   
+    
 
         <h2>Let's get to know about you</h2>
 
@@ -83,12 +85,13 @@
                 </div>
                 </div>
     	</fieldset>
-        
+
         <div class="submit">
     	   <button name="send" type="submit" value="Submit!">Submit!</button>
         </div>
 
     </form>
+
 
 </div>
 

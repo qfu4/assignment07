@@ -64,7 +64,7 @@ form {
 	width: 100%;
 	align-self: center;
 	position: relative;
-	height: 100%;
+	
 }
 
 .index * {
@@ -116,9 +116,6 @@ form {
 
 /*	State (for dynamic stuff)
 	**************************************** */
-.index .content {
-	vertical-align: middle;
-}
 
 .index h2 {
 	font-weight: bolder;
