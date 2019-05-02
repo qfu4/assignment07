@@ -78,7 +78,7 @@
   		height: 100%;
   		width: 0;
   		position: fixed;
-  		z-index: 1;
+  		z-index: 100;
   		top: 0;
   		left: 0;
   		background-color: #f5f2ed;
@@ -95,6 +95,11 @@
 	.surveymain-menu ul {
 		display: block;
 	}
+
+	.surveymain-menu h1 {
+		font-size: 20px;
+	}
+
 	.sidebar a {
   		padding: 8px 8px 8px 32px;
   		text-decoration: none;
@@ -110,7 +115,7 @@
   		margin-left: 50px;
   	}
 	.openbtn {
-  		font-size: 30px;
+  		font-size: 25px;
   		cursor: pointer;
   		background-color: #f5f2ed;
   		border: none;
