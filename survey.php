@@ -63,7 +63,7 @@
                 </div>
                 </div>
 
-    		<h3>On scale of 0 ~ 5, how helpful do you think our website is?</h3>
+    		<h3>On scale of 0 ~ 5, how helpful do you think our website is? 从0-5，你认为我们的网站值多少分？</h3>
                 <div class="inputContainer">
                 <div class="optionContainer">
     			<input type="radio" name="score" id="score-0" value="0"><label for="score-0">0</label>
