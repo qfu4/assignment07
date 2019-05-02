@@ -14,7 +14,7 @@
     		<legend>Personal Information 个人信息</legend>
     		<label for="name">Name 名字</label><br><input type="text" name="name" id="name" placeholder="Full Name 全名"><br>
     		<label for="email">E-mail 邮箱</label><br><input type="email" name="email" id="email" placeholder="email@example.com"><br>
-            <label for="email">Your City 你的城市</label><br><input type="text" name="address" id="address" placeholder="Rochester 罗切斯特"><br>
+            <label for="address">Your City 你的城市</label><br><input type="text" name="address" id="address" placeholder="Rochester 罗切斯特"><br>
 
     	</fieldset>
 

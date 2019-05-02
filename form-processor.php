@@ -178,9 +178,7 @@ mail($emailTo, $subject, $body, "From: <$emailFrom>");
      ********************************** -->
 
 <?php $nav = 'css/surveynav.css'; ?>
-<?php
-
-include "inc/html-top.php";
+<?php include "inc/navhtml-top.php";
 ?>
 
 
