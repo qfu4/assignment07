@@ -1,3 +1,5 @@
+/*	Modules (reusable classes)
+	**************************************** */
 .main-menu {
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
@@ -6,6 +8,9 @@
 	padding-top: 10px;
 	height: 60px;
 }
+
+/*	State (for dynamic stuff)
+	**************************************** */
 
 .main-menu ul {
 	/* standard removal of UL styles */

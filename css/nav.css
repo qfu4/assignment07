@@ -1,3 +1,5 @@
+/*	Modules (reusable classes)
+	**************************************** */
 .main-menu {
 	position: fixed; /* required - magic */
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
@@ -6,6 +8,9 @@
 	background-color: transparent; 
 	padding-top: 10px;
 }
+
+/*	State (for dynamic stuff)
+	**************************************** */
 
 .main-menu ul {
 	/* standard removal of UL styles */
@@ -49,9 +54,7 @@
 	text-align: center;
 }
 
-
-.main-menu a:hover { color: #000000; }
-
 .main-menu #logo {
 	float:left;
 }
+

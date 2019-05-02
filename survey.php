@@ -85,15 +85,10 @@
                 </div>
                 </div>
     	</fieldset>
-        
-<<<<<<< HEAD
-    	<input name="send" type="submit" value="Submit!">
 
-=======
         <div class="submit">
     	   <button name="send" type="submit" value="Submit!">Submit!</button>
         </div>
->>>>>>> 16084a084a995976b6fec2e7262044d13dba87d6
 
     </form>
 
