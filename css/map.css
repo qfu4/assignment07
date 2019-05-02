@@ -1,3 +1,6 @@
+/*  ****************************************
+  Base styles 
+  **************************************** */
 svg {
   width: 90vw;
   height: 90vh;
@@ -8,6 +11,9 @@ path {
   fill: #efefef;
   position: relative;
 }
+
+/*  Modules (reusable classes)
+  **************************************** */
 
 .US {
   fill: #ebe0e1;

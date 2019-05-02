@@ -1,7 +1,12 @@
+/*  Modules (reusable classes)
+  **************************************** */
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
 }
+
+/*  State (for dynamic stuff)
+  **************************************** */
 
 .timeline ol {
   font-size: 0;
@@ -40,7 +45,7 @@
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #F45B69;
+  background: #F0574B;
 }
 
 .timeline ol li div {
