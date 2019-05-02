@@ -71,6 +71,16 @@ form {
 	border: 1px hotpink solid;
 }
 
+.index .content{
+	display: absolute;
+	margin-top: 300px;
+}
+
+.index button{
+	display: fixed;
+	bottom:0;
+	margin-right: 0px;
+}
 .firstContainer {
 	display: inline-flex;
 }
