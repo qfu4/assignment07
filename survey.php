@@ -1,6 +1,6 @@
 <?php $nav = 'css/surveynav.css'; ?>
-<?php include "inc/html-top.php";?>
-<div class="surveyContainer">
+<?php include "inc/navhtml-top.php";?>
+<div class="surveyContainer" id="surveyContainer">
     
      <form method="post" action="form-processor.php" >
    <!--  <form method="post" action="include.php"> -->
@@ -96,6 +96,8 @@
 </div>
 
 <?php include "inc/footer.php";?>
+
+<?php include "inc/js.php";?>
 
 </body>
 </html>

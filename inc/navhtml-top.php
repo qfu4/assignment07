@@ -16,11 +16,14 @@
 
 <body>
      <!-- Navigation -->
-    <nav class="main-menu">
+    <nav class="surveymain-menu">
         <a id="logo" href="index.php">
             <h1>Michelin Guide</h1>
         </a>
-        <ul>
+
+        <div>
+        <ul id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
             <li><a href="#first">Intro</a></li>
             <li><a href="#second">History</a></li>
             <li><a href="#third">Values</a></li>
@@ -28,4 +31,9 @@
             <li><a href="#fifth">Restaurants</a></li>
             <li><a href="#sixth">Survey</a><li>
         </ul>
+
+        <button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+        </div>
     </nav>
+
+    
