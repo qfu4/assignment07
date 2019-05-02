@@ -67,10 +67,6 @@ form {
 	
 }
 
-.index * {
-	border: 1px hotpink solid;
-}
-
 .firstContainer {
 	display: inline-flex;
 }
@@ -104,6 +100,30 @@ form {
 	padding-bottom: 50px;
 }
 
+.inputContainer {
+	display: inline-flex;
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	background-color: #F0574B;
+	padding: 5px;
+}
+
+.optionContainer {
+	width: 100%;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.submit {
+	text-align: center;
+}
+
+.thankyou {
+	padding-bottom: 150px;
+}
 /*	State (for dynamic stuff)
 	**************************************** */
 
@@ -113,9 +133,7 @@ form {
 }
 
 .index button {
-	position: relative;
-	float: right;
-	margin-right: 1%;
+	position: absolute;
 	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: 0.8px;
@@ -128,6 +146,9 @@ form {
 	padding-bottom: 20px;
 	padding-right: 30px;
 	padding-left: 30px;
+	right: 15px;
+	top: 320px;
+	z-index: 10;
 }
 
 .index span {
@@ -228,7 +249,10 @@ section:nth-child(6) {
 .forthContainer li {
 	list-style: none;
 	display: inline-flex;
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
 	margin: 20px;
 	border-radius: 50px;
 	background-color: #F0574B;
@@ -332,8 +356,8 @@ section:nth-child(6) {
 	font-size: 22px;
 	font-weight: 500;
 	color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-right: 30px;
 	padding-left: 30px;
 	border: 3px #F0574B solid;
@@ -414,27 +438,6 @@ footer a {
 	margin-bottom: 3px;
 }
 
-.inputContainer {
-	display: inline-flex;
-	width: 95%;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	border-radius: 30px;
-	background-color: #F0574B;
-	padding: 5px;
-}
-
-.optionContainer {
-	width: 100%;
-	margin-right: 5px;
-	margin-left: 5px;
-	text-align: center;
-}
-
-.submit {
-	text-align: center;
-}
-
 .submit button {
 	padding-right: 50px;
 	padding-left: 50px;
@@ -454,9 +457,6 @@ form a {
 	color: #F0574B;
 }
 
-.thankyou {
-	padding-bottom: 150px;
-}
 
 .index button:hover {
 	background-color: white;
