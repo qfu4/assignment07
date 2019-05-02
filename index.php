@@ -11,7 +11,8 @@
 
             </div><!-- .content -->
 
-            <button onclick="window.location.href='survey.php'">Take the Survey</button>
+                <button onclick="window.location.href='survey.php'">Take the Survey</button>
+            
 
        </div><!-- .container -->
     </section>
