@@ -14,7 +14,7 @@
     		<legend>Personal Information</legend>
     		<label for="name">Name</label><br><input type="text" name="name" id="name" placeholder="Full Name"><br>
     		<label for="email">E-mail</label><br><input type="email" name="email" id="email" placeholder="email@example.com"><br>
-            <label for="email">Your City</label><br><input type="text" name="city" id="city" placeholder="Rochester"><br>
+            <label for="email">Your City</label><br><input type="text" name="address" id="city" placeholder="Rochester"><br>
 
     	</fieldset>
 
