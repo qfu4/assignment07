@@ -467,3 +467,13 @@ form a {
 	background-color: white;
 	color: #F0574B;
 }
+
+@media (max-width: 450px) {
+	form{
+		zoom:45%;
+	}
+
+	footer{
+		zoom: 45%;
+	}
+}

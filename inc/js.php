@@ -85,4 +85,19 @@
       document.getElementById("countryName").innerHTML = x;
     }
 
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+
+    function required() {
+      document.getElementById("name").required = true;
+      document.getElementById("email").required = true;
+      document.getElementById("address").required = true;
+  
+    }
+
 </script>
