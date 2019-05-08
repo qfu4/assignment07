@@ -28,7 +28,7 @@
 
             </div><!-- .content -->
 
-            <img src="images/food.jpg">
+            <img src="images/food.jpg" alt="food">
 
        </div><!-- .container -->
     </section>
@@ -44,48 +44,49 @@
               <ol>
                 <li>
                   <div>
-                    <time>1889</time>
+                    <time datetime="2019">1889</time>
                     Brothers Andre and Edouard Michelin founded their eponymous tire company, MICHELIN.
+                  </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>1890</time>
+                    <time  datetime="2019">1890</time>
                     In order to help motorists develop their trips - thereby boosting car sales and in turn, tire purchases - the Michelin brothers produced a small guide filled with handy information for travellers, especially, a listing of places to eat or take shelter for the night.
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>1920</time>
+                    <time  datetime="1920">1920</time>
                     A brand new MICHELIN Guide was launched and sold for seven francs based on the principle that “man only truly respects what he pays for.” 
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>1926</time>
+                    <time  datetime="1926">1926</time>
                     The guide began to award stars for fine dining establishments, initially marking them only with a single star.
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>1936</time>
+                    <time  datetime="1936">1936</time>
                     A hierarchy of zero, one, two, and three stars was introduced, and the criteria for the starred rankings were published.
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>Late 20th Century</time>
+                    <time  datetime="1990">Late 20th Century</time>
                     The MICHELIN Guides became best-sellers without equals. 
                   </div>
                 </li>
 
                 <li>
                   <div>
-                    <time>Today</time>
+                    <time  datetime="2019">Today</time>
                     The remarkable foresight of the founding Michelin brothers has given the company a vocation to make driving, tourism and the search for unforgettable experiences available to all.
                   </div>
                 </li>

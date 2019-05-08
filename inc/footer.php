@@ -4,7 +4,7 @@
 
       <h2>Michelin Guide</h2>
       
-        <ul><span>Sources</span>
+        <ul>
            <li><a href="https://guide.michelin.com/us/new-york/about-us">History</a></li>
            <li><a href="https://guide.michelin.com/us/new-york/the-inspection-process">Inspection Process</a></li>
            <li><a href="https://en.wikipedia.org/wiki/Michelin_Guide">Introduction</a></li>

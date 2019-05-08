@@ -11,10 +11,17 @@
 
     	<fieldset class="ps">
 
+<<<<<<< HEAD
+    		<legend>Personal Information</legend>
+    		<label for="name">Name</label><br><input type="text" name="name" id="name" placeholder="Full Name"><br>
+    		<label for="email">E-mail</label><br><input type="email" name="email" id="email" placeholder="email@example.com"><br>
+            <label for="email">Your City</label><br><input type="text" name="address" id="city" placeholder="Rochester"><br>
+=======
     		<legend>Personal Information 个人信息</legend>
     		<label for="name">Name 名字</label><br><input type="text" name="name" id="name" placeholder="Full Name 全名"><br>
     		<label for="email">E-mail 邮箱</label><br><input type="email" name="email" id="email" placeholder="email@example.com"><br>
             <label for="address">Your City 你的城市</label><br><input type="text" name="address" id="address" placeholder="Rochester 罗切斯特"><br>
+>>>>>>> 1261086641dd5cbdf7acac9b4a0dfbc43a315f95
 
     	</fieldset>
 
