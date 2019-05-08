@@ -87,7 +87,7 @@
     	</fieldset>
 
         <div class="submit">
-    	   <button name="send" type="submit" value="Submit!">Submit！提交!</button>
+    	   <button name="send" type="submit" value="Submit!" onclick="required()">Submit！提交!</button>
         </div>
 
     </form>
